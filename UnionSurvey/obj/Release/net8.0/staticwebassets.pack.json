@@ -1,0 +1,3409 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\UnionSurvey.bundle.scp.css",
+      "PackagePath": "staticwebassets\\UnionSurvey.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\Template\\QuestionImportTemplate.txt",
+      "PackagePath": "staticwebassets\\Template\\QuestionImportTemplate.txt"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\assets\\ccip-BOnIJZ23.js",
+      "PackagePath": "staticwebassets\\assets\\ccip-BOnIJZ23.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\assets\\ccip-DRqyIjlB.js",
+      "PackagePath": "staticwebassets\\assets\\ccip-DRqyIjlB.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\assets\\hooks.module-CEk5B_9c.js",
+      "PackagePath": "staticwebassets\\assets\\hooks.module-CEk5B_9c.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\assets\\hooks.module-CHOf97a-.js",
+      "PackagePath": "staticwebassets\\assets\\hooks.module-CHOf97a-.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\assets\\index-4LT_I_y0.js",
+      "PackagePath": "staticwebassets\\assets\\index-4LT_I_y0.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\assets\\index-BfQ7EcPu.js",
+      "PackagePath": "staticwebassets\\assets\\index-BfQ7EcPu.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\assets\\index-BvUhajFJ.js",
+      "PackagePath": "staticwebassets\\assets\\index-BvUhajFJ.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\assets\\index-CJ_8MHqR.js",
+      "PackagePath": "staticwebassets\\assets\\index-CJ_8MHqR.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\assets\\index-CMs9eEiW.js",
+      "PackagePath": "staticwebassets\\assets\\index-CMs9eEiW.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\assets\\index-CROfvTaE.js",
+      "PackagePath": "staticwebassets\\assets\\index-CROfvTaE.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\assets\\index-CTqmPklz.js",
+      "PackagePath": "staticwebassets\\assets\\index-CTqmPklz.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\assets\\index-CvrzqRFG.js",
+      "PackagePath": "staticwebassets\\assets\\index-CvrzqRFG.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\assets\\index-D0oTux-W.js",
+      "PackagePath": "staticwebassets\\assets\\index-D0oTux-W.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\assets\\index-D7igg7lB.js",
+      "PackagePath": "staticwebassets\\assets\\index-D7igg7lB.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\assets\\index-DQ8S634P.js",
+      "PackagePath": "staticwebassets\\assets\\index-DQ8S634P.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\assets\\index-DhI7nBFU.js",
+      "PackagePath": "staticwebassets\\assets\\index-DhI7nBFU.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\assets\\index-dZaW1aRi.js",
+      "PackagePath": "staticwebassets\\assets\\index-dZaW1aRi.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\assets\\index-eUFBIA5K.css",
+      "PackagePath": "staticwebassets\\assets\\index-eUFBIA5K.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\assets\\index-tiInQBp5.js",
+      "PackagePath": "staticwebassets\\assets\\index-tiInQBp5.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\assets\\w3m-modal-B3trRBN4.js",
+      "PackagePath": "staticwebassets\\assets\\w3m-modal-B3trRBN4.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\assets\\w3m-modal-X9laTGQR.js",
+      "PackagePath": "staticwebassets\\assets\\w3m-modal-X9laTGQR.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\css\\min\\unioinsurvey.min.css",
+      "PackagePath": "staticwebassets\\css\\min\\unioinsurvey.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\css\\theme-rtl.css",
+      "PackagePath": "staticwebassets\\css\\theme-rtl.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\css\\theme-rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\theme-rtl.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\css\\theme-rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\theme-rtl.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\css\\theme-rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\theme-rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\css\\theme.css",
+      "PackagePath": "staticwebassets\\css\\theme.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\css\\theme.css.map",
+      "PackagePath": "staticwebassets\\css\\theme.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\css\\theme.min.css",
+      "PackagePath": "staticwebassets\\css\\theme.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\css\\theme.min.css.map",
+      "PackagePath": "staticwebassets\\css\\theme.min.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\css\\user-rtl.css",
+      "PackagePath": "staticwebassets\\css\\user-rtl.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\css\\user-rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\user-rtl.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\css\\user-rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\user-rtl.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\css\\user-rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\user-rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\css\\user.css",
+      "PackagePath": "staticwebassets\\css\\user.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\css\\user.css.map",
+      "PackagePath": "staticwebassets\\css\\user.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\css\\user.min.css",
+      "PackagePath": "staticwebassets\\css\\user.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\css\\user.min.css.map",
+      "PackagePath": "staticwebassets\\css\\user.min.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\data\\usa.js",
+      "PackagePath": "staticwebassets\\data\\usa.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\data\\world.js",
+      "PackagePath": "staticwebassets\\data\\world.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\animated-icons\\bm.json",
+      "PackagePath": "staticwebassets\\img\\animated-icons\\bm.json"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\animated-icons\\bouncing-ball.json",
+      "PackagePath": "staticwebassets\\img\\animated-icons\\bouncing-ball.json"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\animated-icons\\celebration.json",
+      "PackagePath": "staticwebassets\\img\\animated-icons\\celebration.json"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\animated-icons\\check-primary-light.json",
+      "PackagePath": "staticwebassets\\img\\animated-icons\\check-primary-light.json"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\animated-icons\\heart.json",
+      "PackagePath": "staticwebassets\\img\\animated-icons\\heart.json"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\animated-icons\\infinite-loop.json",
+      "PackagePath": "staticwebassets\\img\\animated-icons\\infinite-loop.json"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\animated-icons\\loading-animation.json",
+      "PackagePath": "staticwebassets\\img\\animated-icons\\loading-animation.json"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\animated-icons\\loading-balls.json",
+      "PackagePath": "staticwebassets\\img\\animated-icons\\loading-balls.json"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\animated-icons\\loading-circle-scale.json",
+      "PackagePath": "staticwebassets\\img\\animated-icons\\loading-circle-scale.json"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\animated-icons\\loading-square.json",
+      "PackagePath": "staticwebassets\\img\\animated-icons\\loading-square.json"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\animated-icons\\loading.json",
+      "PackagePath": "staticwebassets\\img\\animated-icons\\loading.json"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\animated-icons\\shopping-list.json",
+      "PackagePath": "staticwebassets\\img\\animated-icons\\shopping-list.json"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\animated-icons\\sleeping-404.json",
+      "PackagePath": "staticwebassets\\img\\animated-icons\\sleeping-404.json"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\animated-icons\\ss.json",
+      "PackagePath": "staticwebassets\\img\\animated-icons\\ss.json"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\animated-icons\\star-feedback.json",
+      "PackagePath": "staticwebassets\\img\\animated-icons\\star-feedback.json"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\animated-icons\\warning-light.json",
+      "PackagePath": "staticwebassets\\img\\animated-icons\\warning-light.json"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\chat\\1.jpg",
+      "PackagePath": "staticwebassets\\img\\chat\\1.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\chat\\10.jpg",
+      "PackagePath": "staticwebassets\\img\\chat\\10.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\chat\\11.jpg",
+      "PackagePath": "staticwebassets\\img\\chat\\11.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\chat\\12.jpg",
+      "PackagePath": "staticwebassets\\img\\chat\\12.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\chat\\2.jpg",
+      "PackagePath": "staticwebassets\\img\\chat\\2.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\chat\\3.jpg",
+      "PackagePath": "staticwebassets\\img\\chat\\3.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\chat\\4.jpg",
+      "PackagePath": "staticwebassets\\img\\chat\\4.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\chat\\5.jpg",
+      "PackagePath": "staticwebassets\\img\\chat\\5.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\chat\\6.jpg",
+      "PackagePath": "staticwebassets\\img\\chat\\6.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\chat\\7.jpg",
+      "PackagePath": "staticwebassets\\img\\chat\\7.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\chat\\8.jpg",
+      "PackagePath": "staticwebassets\\img\\chat\\8.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\chat\\9.jpg",
+      "PackagePath": "staticwebassets\\img\\chat\\9.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\crm\\call.svg",
+      "PackagePath": "staticwebassets\\img\\crm\\call.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\crm\\email.svg",
+      "PackagePath": "staticwebassets\\img\\crm\\email.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\crm\\india.png",
+      "PackagePath": "staticwebassets\\img\\crm\\india.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\crm\\nepal.png",
+      "PackagePath": "staticwebassets\\img\\crm\\nepal.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\crm\\other.svg",
+      "PackagePath": "staticwebassets\\img\\crm\\other.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\crm\\social.svg",
+      "PackagePath": "staticwebassets\\img\\crm\\social.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\crm\\thailand.png",
+      "PackagePath": "staticwebassets\\img\\crm\\thailand.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\crm\\uae.png",
+      "PackagePath": "staticwebassets\\img\\crm\\uae.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\doc\\bulk-select.png",
+      "PackagePath": "staticwebassets\\img\\doc\\bulk-select.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\doc\\error.png",
+      "PackagePath": "staticwebassets\\img\\doc\\error.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\ecommerce\\1.jpg",
+      "PackagePath": "staticwebassets\\img\\ecommerce\\1.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\ecommerce\\2.jpg",
+      "PackagePath": "staticwebassets\\img\\ecommerce\\2.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\ecommerce\\3.jpg",
+      "PackagePath": "staticwebassets\\img\\ecommerce\\3.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\ecommerce\\4.jpg",
+      "PackagePath": "staticwebassets\\img\\ecommerce\\4.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\ecommerce\\5.jpg",
+      "PackagePath": "staticwebassets\\img\\ecommerce\\5.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\ecommerce\\6.jpg",
+      "PackagePath": "staticwebassets\\img\\ecommerce\\6.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\ecommerce\\7.jpg",
+      "PackagePath": "staticwebassets\\img\\ecommerce\\7.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\elearning\\avatar\\student.png",
+      "PackagePath": "staticwebassets\\img\\elearning\\avatar\\student.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\elearning\\avatar\\trainer.png",
+      "PackagePath": "staticwebassets\\img\\elearning\\avatar\\trainer.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\elearning\\courses\\course-details.png",
+      "PackagePath": "staticwebassets\\img\\elearning\\courses\\course-details.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\elearning\\courses\\course1.png",
+      "PackagePath": "staticwebassets\\img\\elearning\\courses\\course1.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\elearning\\courses\\course2.png",
+      "PackagePath": "staticwebassets\\img\\elearning\\courses\\course2.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\elearning\\courses\\course3.png",
+      "PackagePath": "staticwebassets\\img\\elearning\\courses\\course3.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\elearning\\courses\\course4.png",
+      "PackagePath": "staticwebassets\\img\\elearning\\courses\\course4.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\elearning\\courses\\course5.png",
+      "PackagePath": "staticwebassets\\img\\elearning\\courses\\course5.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\elearning\\courses\\course6.png",
+      "PackagePath": "staticwebassets\\img\\elearning\\courses\\course6.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\elearning\\courses\\course7.png",
+      "PackagePath": "staticwebassets\\img\\elearning\\courses\\course7.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\elearning\\courses\\course8.png",
+      "PackagePath": "staticwebassets\\img\\elearning\\courses\\course8.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\elearning\\courses\\course9.png",
+      "PackagePath": "staticwebassets\\img\\elearning\\courses\\course9.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\elearning\\lessons\\chapter1.png",
+      "PackagePath": "staticwebassets\\img\\elearning\\lessons\\chapter1.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\elearning\\lessons\\chapter2.png",
+      "PackagePath": "staticwebassets\\img\\elearning\\lessons\\chapter2.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\elearning\\lessons\\chapter3.png",
+      "PackagePath": "staticwebassets\\img\\elearning\\lessons\\chapter3.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\elearning\\lessons\\chapter4.png",
+      "PackagePath": "staticwebassets\\img\\elearning\\lessons\\chapter4.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\elearning\\lessons\\intro.png",
+      "PackagePath": "staticwebassets\\img\\elearning\\lessons\\intro.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\favicons\\android-chrome-192x192.png",
+      "PackagePath": "staticwebassets\\img\\favicons\\android-chrome-192x192.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\favicons\\android-chrome-512x512.png",
+      "PackagePath": "staticwebassets\\img\\favicons\\android-chrome-512x512.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\favicons\\apple-touch-icon.png",
+      "PackagePath": "staticwebassets\\img\\favicons\\apple-touch-icon.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\favicons\\browserconfig.xml",
+      "PackagePath": "staticwebassets\\img\\favicons\\browserconfig.xml"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\favicons\\favicon-16x16.png",
+      "PackagePath": "staticwebassets\\img\\favicons\\favicon-16x16.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\favicons\\favicon-32x32.png",
+      "PackagePath": "staticwebassets\\img\\favicons\\favicon-32x32.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\favicons\\favicon.ico",
+      "PackagePath": "staticwebassets\\img\\favicons\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\favicons\\manifest.json",
+      "PackagePath": "staticwebassets\\img\\favicons\\manifest.json"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\favicons\\mstile-150x150.png",
+      "PackagePath": "staticwebassets\\img\\favicons\\mstile-150x150.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\favicons\\site.webmanifest",
+      "PackagePath": "staticwebassets\\img\\favicons\\site.webmanifest"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\gallery\\1.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery\\1.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\gallery\\2.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery\\2.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\gallery\\2000.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery\\2000.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\gallery\\2001.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery\\2001.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\gallery\\2006.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery\\2006.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\gallery\\2007.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery\\2007.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\gallery\\2008.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery\\2008.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\gallery\\2010.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery\\2010.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\gallery\\3.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery\\3.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\gallery\\4.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery\\4.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\gallery\\5.jpg",
+      "PackagePath": "staticwebassets\\img\\gallery\\5.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\generic\\1.jpg",
+      "PackagePath": "staticwebassets\\img\\generic\\1.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\generic\\10.jpg",
+      "PackagePath": "staticwebassets\\img\\generic\\10.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\generic\\11.jpg",
+      "PackagePath": "staticwebassets\\img\\generic\\11.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\generic\\12.jpg",
+      "PackagePath": "staticwebassets\\img\\generic\\12.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\generic\\13.jpg",
+      "PackagePath": "staticwebassets\\img\\generic\\13.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\generic\\14.jpg",
+      "PackagePath": "staticwebassets\\img\\generic\\14.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\generic\\15.jpg",
+      "PackagePath": "staticwebassets\\img\\generic\\15.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\generic\\16.jpg",
+      "PackagePath": "staticwebassets\\img\\generic\\16.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\generic\\17.jpg",
+      "PackagePath": "staticwebassets\\img\\generic\\17.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\generic\\18.jpg",
+      "PackagePath": "staticwebassets\\img\\generic\\18.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\generic\\19.jpg",
+      "PackagePath": "staticwebassets\\img\\generic\\19.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\generic\\2.jpg",
+      "PackagePath": "staticwebassets\\img\\generic\\2.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\generic\\20.jpg",
+      "PackagePath": "staticwebassets\\img\\generic\\20.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\generic\\3.jpg",
+      "PackagePath": "staticwebassets\\img\\generic\\3.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\generic\\4.jpg",
+      "PackagePath": "staticwebassets\\img\\generic\\4.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\generic\\5.jpg",
+      "PackagePath": "staticwebassets\\img\\generic\\5.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\generic\\6.jpg",
+      "PackagePath": "staticwebassets\\img\\generic\\6.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\generic\\7.jpg",
+      "PackagePath": "staticwebassets\\img\\generic\\7.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\generic\\8.jpg",
+      "PackagePath": "staticwebassets\\img\\generic\\8.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\generic\\9.jpg",
+      "PackagePath": "staticwebassets\\img\\generic\\9.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\generic\\Frame-14.png",
+      "PackagePath": "staticwebassets\\img\\generic\\Frame-14.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\generic\\bg-1.jpg",
+      "PackagePath": "staticwebassets\\img\\generic\\bg-1.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\generic\\bg-2.jpg",
+      "PackagePath": "staticwebassets\\img\\generic\\bg-2.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\generic\\bg-navbar.png",
+      "PackagePath": "staticwebassets\\img\\generic\\bg-navbar.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\generic\\card.png",
+      "PackagePath": "staticwebassets\\img\\generic\\card.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\generic\\dashboard-alt-dark.png",
+      "PackagePath": "staticwebassets\\img\\generic\\dashboard-alt-dark.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\generic\\dashboard-alt.jpg",
+      "PackagePath": "staticwebassets\\img\\generic\\dashboard-alt.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\generic\\dashboard-alt.png",
+      "PackagePath": "staticwebassets\\img\\generic\\dashboard-alt.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\generic\\dashboard-old.png",
+      "PackagePath": "staticwebassets\\img\\generic\\dashboard-old.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\generic\\default.png",
+      "PackagePath": "staticwebassets\\img\\generic\\default.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\generic\\falcon-mode-auto.jpg",
+      "PackagePath": "staticwebassets\\img\\generic\\falcon-mode-auto.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\generic\\falcon-mode-dark.jpg",
+      "PackagePath": "staticwebassets\\img\\generic\\falcon-mode-dark.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\generic\\falcon-mode-default.jpg",
+      "PackagePath": "staticwebassets\\img\\generic\\falcon-mode-default.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\generic\\html-falcon.png",
+      "PackagePath": "staticwebassets\\img\\generic\\html-falcon.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\generic\\image-file-2.png",
+      "PackagePath": "staticwebassets\\img\\generic\\image-file-2.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\generic\\inverted.png",
+      "PackagePath": "staticwebassets\\img\\generic\\inverted.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\generic\\showcase-footer-bg.png",
+      "PackagePath": "staticwebassets\\img\\generic\\showcase-footer-bg.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\generic\\vibrant.png",
+      "PackagePath": "staticwebassets\\img\\generic\\vibrant.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\arrows-h.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\arrows-h.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\calendar.png",
+      "PackagePath": "staticwebassets\\img\\icons\\calendar.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\chevron-up.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\chevron-up.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\chip.png",
+      "PackagePath": "staticwebassets\\img\\icons\\chip.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\chrome-logo.png",
+      "PackagePath": "staticwebassets\\img\\icons\\chrome-logo.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\cloud-download-.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\cloud-download-.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\cloud-download.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\cloud-download.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\cloud-upload.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\cloud-upload.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\connect-circle.png",
+      "PackagePath": "staticwebassets\\img\\icons\\connect-circle.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\cookie-1.png",
+      "PackagePath": "staticwebassets\\img\\icons\\cookie-1.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\cookie.png",
+      "PackagePath": "staticwebassets\\img\\icons\\cookie.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\discount.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\discount.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\docs.png",
+      "PackagePath": "staticwebassets\\img\\icons\\docs.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\double-chevron-up.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\double-chevron-up.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\edit-alt-.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\edit-alt-.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\edit-alt.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\edit-alt.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\firefox-logo.png",
+      "PackagePath": "staticwebassets\\img\\icons\\firefox-logo.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\folder-open-solid.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\folder-open-solid.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\folder-solid.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\folder-solid.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\free.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\free.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\icon-angle-right.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\icon-angle-right.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\icon-payment-methods-grid.png",
+      "PackagePath": "staticwebassets\\img\\icons\\icon-payment-methods-grid.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\icon-payment-methods.png",
+      "PackagePath": "staticwebassets\\img\\icons\\icon-payment-methods.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\icon-paypal-full.png",
+      "PackagePath": "staticwebassets\\img\\icons\\icon-paypal-full.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\image.png",
+      "PackagePath": "staticwebassets\\img\\icons\\image.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\leaflet\\layers-2x.png",
+      "PackagePath": "staticwebassets\\img\\icons\\leaflet\\layers-2x.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\leaflet\\layers.png",
+      "PackagePath": "staticwebassets\\img\\icons\\leaflet\\layers.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\leaflet\\marker-icon-2x.png",
+      "PackagePath": "staticwebassets\\img\\icons\\leaflet\\marker-icon-2x.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\leaflet\\marker-icon.png",
+      "PackagePath": "staticwebassets\\img\\icons\\leaflet\\marker-icon.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\leaflet\\marker-shadow.png",
+      "PackagePath": "staticwebassets\\img\\icons\\leaflet\\marker-shadow.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\left-arrow-from-left.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\left-arrow-from-left.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\location.png",
+      "PackagePath": "staticwebassets\\img\\icons\\location.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\map-marker.png",
+      "PackagePath": "staticwebassets\\img\\icons\\map-marker.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\master-card.png",
+      "PackagePath": "staticwebassets\\img\\icons\\master-card.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\moon.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\moon.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\networking.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\networking.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\nineDots.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\nineDots.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\paragraph.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\paragraph.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\play.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\play.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\pro.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\pro.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\radarRect.png",
+      "PackagePath": "staticwebassets\\img\\icons\\radarRect.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\safari-logo.png",
+      "PackagePath": "staticwebassets\\img\\icons\\safari-logo.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\sent.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\sent.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\shield.png",
+      "PackagePath": "staticwebassets\\img\\icons\\shield.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\shield.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\shield.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\signal.png",
+      "PackagePath": "staticwebassets\\img\\icons\\signal.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\spot-illustrations\\1.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\spot-illustrations\\1.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\spot-illustrations\\16.png",
+      "PackagePath": "staticwebassets\\img\\icons\\spot-illustrations\\16.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\spot-illustrations\\2.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\spot-illustrations\\2.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\spot-illustrations\\21.png",
+      "PackagePath": "staticwebassets\\img\\icons\\spot-illustrations\\21.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\spot-illustrations\\3.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\spot-illustrations\\3.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\spot-illustrations\\4.png",
+      "PackagePath": "staticwebassets\\img\\icons\\spot-illustrations\\4.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\spot-illustrations\\4.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\spot-illustrations\\4.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\spot-illustrations\\41.png",
+      "PackagePath": "staticwebassets\\img\\icons\\spot-illustrations\\41.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\spot-illustrations\\45.png",
+      "PackagePath": "staticwebassets\\img\\icons\\spot-illustrations\\45.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\spot-illustrations\\47.png",
+      "PackagePath": "staticwebassets\\img\\icons\\spot-illustrations\\47.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\spot-illustrations\\48.png",
+      "PackagePath": "staticwebassets\\img\\icons\\spot-illustrations\\48.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\spot-illustrations\\49.png",
+      "PackagePath": "staticwebassets\\img\\icons\\spot-illustrations\\49.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\spot-illustrations\\5.png",
+      "PackagePath": "staticwebassets\\img\\icons\\spot-illustrations\\5.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\spot-illustrations\\5.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\spot-illustrations\\5.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\spot-illustrations\\50.png",
+      "PackagePath": "staticwebassets\\img\\icons\\spot-illustrations\\50.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\spot-illustrations\\6.png",
+      "PackagePath": "staticwebassets\\img\\icons\\spot-illustrations\\6.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\spot-illustrations\\6.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\spot-illustrations\\6.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\spot-illustrations\\authentication-corner.png",
+      "PackagePath": "staticwebassets\\img\\icons\\spot-illustrations\\authentication-corner.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\spot-illustrations\\bg-shape.png",
+      "PackagePath": "staticwebassets\\img\\icons\\spot-illustrations\\bg-shape.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\spot-illustrations\\calendar.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\spot-illustrations\\calendar.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\spot-illustrations\\comment-active.png",
+      "PackagePath": "staticwebassets\\img\\icons\\spot-illustrations\\comment-active.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\spot-illustrations\\comment-inactive.png",
+      "PackagePath": "staticwebassets\\img\\icons\\spot-illustrations\\comment-inactive.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\spot-illustrations\\corner-1.png",
+      "PackagePath": "staticwebassets\\img\\icons\\spot-illustrations\\corner-1.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\spot-illustrations\\corner-2.png",
+      "PackagePath": "staticwebassets\\img\\icons\\spot-illustrations\\corner-2.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\spot-illustrations\\corner-3.png",
+      "PackagePath": "staticwebassets\\img\\icons\\spot-illustrations\\corner-3.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\spot-illustrations\\corner-4.png",
+      "PackagePath": "staticwebassets\\img\\icons\\spot-illustrations\\corner-4.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\spot-illustrations\\corner-5.png",
+      "PackagePath": "staticwebassets\\img\\icons\\spot-illustrations\\corner-5.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\spot-illustrations\\corner-6.png",
+      "PackagePath": "staticwebassets\\img\\icons\\spot-illustrations\\corner-6.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\spot-illustrations\\corner-7.png",
+      "PackagePath": "staticwebassets\\img\\icons\\spot-illustrations\\corner-7.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\spot-illustrations\\course-details-bg.png",
+      "PackagePath": "staticwebassets\\img\\icons\\spot-illustrations\\course-details-bg.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\spot-illustrations\\creating.png",
+      "PackagePath": "staticwebassets\\img\\icons\\spot-illustrations\\creating.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\spot-illustrations\\ecommerce-bg.png",
+      "PackagePath": "staticwebassets\\img\\icons\\spot-illustrations\\ecommerce-bg.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\spot-illustrations\\editing.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\spot-illustrations\\editing.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\spot-illustrations\\envelope.png",
+      "PackagePath": "staticwebassets\\img\\icons\\spot-illustrations\\envelope.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\spot-illustrations\\falcon.png",
+      "PackagePath": "staticwebassets\\img\\icons\\spot-illustrations\\falcon.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\spot-illustrations\\gifts.png",
+      "PackagePath": "staticwebassets\\img\\icons\\spot-illustrations\\gifts.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\spot-illustrations\\half-circle-1.png",
+      "PackagePath": "staticwebassets\\img\\icons\\spot-illustrations\\half-circle-1.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\spot-illustrations\\half-circle.png",
+      "PackagePath": "staticwebassets\\img\\icons\\spot-illustrations\\half-circle.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\spot-illustrations\\image.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\spot-illustrations\\image.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\spot-illustrations\\international-women-s-day-2.png",
+      "PackagePath": "staticwebassets\\img\\icons\\spot-illustrations\\international-women-s-day-2.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\spot-illustrations\\international-women-s-day.jpg",
+      "PackagePath": "staticwebassets\\img\\icons\\spot-illustrations\\international-women-s-day.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\spot-illustrations\\like-active.png",
+      "PackagePath": "staticwebassets\\img\\icons\\spot-illustrations\\like-active.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\spot-illustrations\\like-inactive.png",
+      "PackagePath": "staticwebassets\\img\\icons\\spot-illustrations\\like-inactive.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\spot-illustrations\\location.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\spot-illustrations\\location.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\spot-illustrations\\navbar-vertical.png",
+      "PackagePath": "staticwebassets\\img\\icons\\spot-illustrations\\navbar-vertical.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\spot-illustrations\\paper-plane.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\spot-illustrations\\paper-plane.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\spot-illustrations\\rocket.png",
+      "PackagePath": "staticwebassets\\img\\icons\\spot-illustrations\\rocket.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\spot-illustrations\\settings.png",
+      "PackagePath": "staticwebassets\\img\\icons\\spot-illustrations\\settings.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\spot-illustrations\\shape-1.png",
+      "PackagePath": "staticwebassets\\img\\icons\\spot-illustrations\\shape-1.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\spot-illustrations\\share-active.png",
+      "PackagePath": "staticwebassets\\img\\icons\\spot-illustrations\\share-active.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\spot-illustrations\\share-inactive.png",
+      "PackagePath": "staticwebassets\\img\\icons\\spot-illustrations\\share-inactive.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\spot-illustrations\\startup.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\spot-illustrations\\startup.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\star_on.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\star_on.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\sun.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\sun.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\target.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\target.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\triple-chevron-up.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\triple-chevron-up.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\user-plus.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\user-plus.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\users.svg",
+      "PackagePath": "staticwebassets\\img\\icons\\users.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\visa.png",
+      "PackagePath": "staticwebassets\\img\\icons\\visa.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\weather-icon.png",
+      "PackagePath": "staticwebassets\\img\\icons\\weather-icon.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\weather-sm.jpg",
+      "PackagePath": "staticwebassets\\img\\icons\\weather-sm.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\weather.jpg",
+      "PackagePath": "staticwebassets\\img\\icons\\weather.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\icons\\zip.png",
+      "PackagePath": "staticwebassets\\img\\icons\\zip.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\illustrations\\1.svg",
+      "PackagePath": "staticwebassets\\img\\illustrations\\1.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\illustrations\\2.svg",
+      "PackagePath": "staticwebassets\\img\\illustrations\\2.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\illustrations\\3.svg",
+      "PackagePath": "staticwebassets\\img\\illustrations\\3.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\illustrations\\4.png",
+      "PackagePath": "staticwebassets\\img\\illustrations\\4.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\illustrations\\4.svg",
+      "PackagePath": "staticwebassets\\img\\illustrations\\4.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\illustrations\\5.png",
+      "PackagePath": "staticwebassets\\img\\illustrations\\5.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\illustrations\\5.svg",
+      "PackagePath": "staticwebassets\\img\\illustrations\\5.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\illustrations\\6.png",
+      "PackagePath": "staticwebassets\\img\\illustrations\\6.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\illustrations\\6.svg",
+      "PackagePath": "staticwebassets\\img\\illustrations\\6.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\illustrations\\authentication-corner.png",
+      "PackagePath": "staticwebassets\\img\\illustrations\\authentication-corner.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\illustrations\\bg-shape.png",
+      "PackagePath": "staticwebassets\\img\\illustrations\\bg-shape.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\illustrations\\bg-wave.png",
+      "PackagePath": "staticwebassets\\img\\illustrations\\bg-wave.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\illustrations\\calendar.svg",
+      "PackagePath": "staticwebassets\\img\\illustrations\\calendar.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\illustrations\\comment-active.png",
+      "PackagePath": "staticwebassets\\img\\illustrations\\comment-active.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\illustrations\\comment-inactive.png",
+      "PackagePath": "staticwebassets\\img\\illustrations\\comment-inactive.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\illustrations\\corner-1.png",
+      "PackagePath": "staticwebassets\\img\\illustrations\\corner-1.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\illustrations\\corner-2.png",
+      "PackagePath": "staticwebassets\\img\\illustrations\\corner-2.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\illustrations\\corner-3.png",
+      "PackagePath": "staticwebassets\\img\\illustrations\\corner-3.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\illustrations\\corner-4.png",
+      "PackagePath": "staticwebassets\\img\\illustrations\\corner-4.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\illustrations\\corner-5.png",
+      "PackagePath": "staticwebassets\\img\\illustrations\\corner-5.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\illustrations\\corner-6.png",
+      "PackagePath": "staticwebassets\\img\\illustrations\\corner-6.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\illustrations\\creating.png",
+      "PackagePath": "staticwebassets\\img\\illustrations\\creating.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\illustrations\\crm-bar-chart.png",
+      "PackagePath": "staticwebassets\\img\\illustrations\\crm-bar-chart.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\illustrations\\crm-line-chart.png",
+      "PackagePath": "staticwebassets\\img\\illustrations\\crm-line-chart.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\illustrations\\ecommerce-bg.png",
+      "PackagePath": "staticwebassets\\img\\illustrations\\ecommerce-bg.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\illustrations\\editing.svg",
+      "PackagePath": "staticwebassets\\img\\illustrations\\editing.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\illustrations\\envelope.png",
+      "PackagePath": "staticwebassets\\img\\illustrations\\envelope.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\illustrations\\falcon.png",
+      "PackagePath": "staticwebassets\\img\\illustrations\\falcon.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\illustrations\\gifts.png",
+      "PackagePath": "staticwebassets\\img\\illustrations\\gifts.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\illustrations\\half-circle-1.png",
+      "PackagePath": "staticwebassets\\img\\illustrations\\half-circle-1.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\illustrations\\half-circle.png",
+      "PackagePath": "staticwebassets\\img\\illustrations\\half-circle.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\illustrations\\image.svg",
+      "PackagePath": "staticwebassets\\img\\illustrations\\image.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\illustrations\\international-women-s-day-2.png",
+      "PackagePath": "staticwebassets\\img\\illustrations\\international-women-s-day-2.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\illustrations\\international-women-s-day.jpg",
+      "PackagePath": "staticwebassets\\img\\illustrations\\international-women-s-day.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\illustrations\\like-active.png",
+      "PackagePath": "staticwebassets\\img\\illustrations\\like-active.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\illustrations\\like-inactive.png",
+      "PackagePath": "staticwebassets\\img\\illustrations\\like-inactive.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\illustrations\\location.svg",
+      "PackagePath": "staticwebassets\\img\\illustrations\\location.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\illustrations\\navbar-vertical.png",
+      "PackagePath": "staticwebassets\\img\\illustrations\\navbar-vertical.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\illustrations\\paper-plane.svg",
+      "PackagePath": "staticwebassets\\img\\illustrations\\paper-plane.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\illustrations\\reports-bg.png",
+      "PackagePath": "staticwebassets\\img\\illustrations\\reports-bg.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\illustrations\\reports-greeting.png",
+      "PackagePath": "staticwebassets\\img\\illustrations\\reports-greeting.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\illustrations\\rocket.png",
+      "PackagePath": "staticwebassets\\img\\illustrations\\rocket.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\illustrations\\settings.png",
+      "PackagePath": "staticwebassets\\img\\illustrations\\settings.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\illustrations\\shape-1.png",
+      "PackagePath": "staticwebassets\\img\\illustrations\\shape-1.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\illustrations\\share-active.png",
+      "PackagePath": "staticwebassets\\img\\illustrations\\share-active.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\illustrations\\share-inactive.png",
+      "PackagePath": "staticwebassets\\img\\illustrations\\share-inactive.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\illustrations\\startup.svg",
+      "PackagePath": "staticwebassets\\img\\illustrations\\startup.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\illustrations\\ticket-bg.png",
+      "PackagePath": "staticwebassets\\img\\illustrations\\ticket-bg.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\illustrations\\ticket-welcome.png",
+      "PackagePath": "staticwebassets\\img\\illustrations\\ticket-welcome.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\kanban\\1.jpg",
+      "PackagePath": "staticwebassets\\img\\kanban\\1.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\kanban\\2.jpg",
+      "PackagePath": "staticwebassets\\img\\kanban\\2.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\kanban\\3.jpg",
+      "PackagePath": "staticwebassets\\img\\kanban\\3.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\kanban\\4.jpg",
+      "PackagePath": "staticwebassets\\img\\kanban\\4.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\logos\\adidas.png",
+      "PackagePath": "staticwebassets\\img\\logos\\adidas.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\logos\\adobe-creative-cloud.png",
+      "PackagePath": "staticwebassets\\img\\logos\\adobe-creative-cloud.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\logos\\amazon.png",
+      "PackagePath": "staticwebassets\\img\\logos\\amazon.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\logos\\apple.png",
+      "PackagePath": "staticwebassets\\img\\logos\\apple.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\logos\\asana-logo.png",
+      "PackagePath": "staticwebassets\\img\\logos\\asana-logo.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\logos\\atlassian.png",
+      "PackagePath": "staticwebassets\\img\\logos\\atlassian.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\logos\\b&w\\1.png",
+      "PackagePath": "staticwebassets\\img\\logos\\b&w\\1.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\logos\\b&w\\10.png",
+      "PackagePath": "staticwebassets\\img\\logos\\b&w\\10.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\logos\\b&w\\11.png",
+      "PackagePath": "staticwebassets\\img\\logos\\b&w\\11.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\logos\\b&w\\12.png",
+      "PackagePath": "staticwebassets\\img\\logos\\b&w\\12.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\logos\\b&w\\2.png",
+      "PackagePath": "staticwebassets\\img\\logos\\b&w\\2.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\logos\\b&w\\3.png",
+      "PackagePath": "staticwebassets\\img\\logos\\b&w\\3.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\logos\\b&w\\4.png",
+      "PackagePath": "staticwebassets\\img\\logos\\b&w\\4.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\logos\\b&w\\5.png",
+      "PackagePath": "staticwebassets\\img\\logos\\b&w\\5.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\logos\\b&w\\6.png",
+      "PackagePath": "staticwebassets\\img\\logos\\b&w\\6.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\logos\\b&w\\7.png",
+      "PackagePath": "staticwebassets\\img\\logos\\b&w\\7.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\logos\\b&w\\8.png",
+      "PackagePath": "staticwebassets\\img\\logos\\b&w\\8.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\logos\\b&w\\9.png",
+      "PackagePath": "staticwebassets\\img\\logos\\b&w\\9.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\logos\\bs-5.png",
+      "PackagePath": "staticwebassets\\img\\logos\\bs-5.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\logos\\bs-logo.png",
+      "PackagePath": "staticwebassets\\img\\logos\\bs-logo.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\logos\\cocacola.png",
+      "PackagePath": "staticwebassets\\img\\logos\\cocacola.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\logos\\coursera.png",
+      "PackagePath": "staticwebassets\\img\\logos\\coursera.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\logos\\digitalocean.png",
+      "PackagePath": "staticwebassets\\img\\logos\\digitalocean.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\logos\\echart.png",
+      "PackagePath": "staticwebassets\\img\\logos\\echart.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\logos\\facebook.png",
+      "PackagePath": "staticwebassets\\img\\logos\\facebook.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\logos\\g.png",
+      "PackagePath": "staticwebassets\\img\\logos\\g.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\logos\\github.png",
+      "PackagePath": "staticwebassets\\img\\logos\\github.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\logos\\gmail.png",
+      "PackagePath": "staticwebassets\\img\\logos\\gmail.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\logos\\goodreads.png",
+      "PackagePath": "staticwebassets\\img\\logos\\goodreads.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\logos\\google.png",
+      "PackagePath": "staticwebassets\\img\\logos\\google.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\logos\\harvard.png",
+      "PackagePath": "staticwebassets\\img\\logos\\harvard.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\logos\\hp.png",
+      "PackagePath": "staticwebassets\\img\\logos\\hp.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\logos\\hubstaff.png",
+      "PackagePath": "staticwebassets\\img\\logos\\hubstaff.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\logos\\intel-2.png",
+      "PackagePath": "staticwebassets\\img\\logos\\intel-2.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\logos\\intel.png",
+      "PackagePath": "staticwebassets\\img\\logos\\intel.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\logos\\js.png",
+      "PackagePath": "staticwebassets\\img\\logos\\js.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\logos\\logo-invoice-.png",
+      "PackagePath": "staticwebassets\\img\\logos\\logo-invoice-.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\logos\\logo-invoice.png",
+      "PackagePath": "staticwebassets\\img\\logos\\logo-invoice.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\logos\\mailbluster.png",
+      "PackagePath": "staticwebassets\\img\\logos\\mailbluster.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\logos\\medium.png",
+      "PackagePath": "staticwebassets\\img\\logos\\medium.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\logos\\netflix.png",
+      "PackagePath": "staticwebassets\\img\\logos\\netflix.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\logos\\nike.png",
+      "PackagePath": "staticwebassets\\img\\logos\\nike.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\logos\\nvidia.png",
+      "PackagePath": "staticwebassets\\img\\logos\\nvidia.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\logos\\oxford.png",
+      "PackagePath": "staticwebassets\\img\\logos\\oxford.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\logos\\paypal.png",
+      "PackagePath": "staticwebassets\\img\\logos\\paypal.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\logos\\pinterest.png",
+      "PackagePath": "staticwebassets\\img\\logos\\pinterest.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\logos\\pug.png",
+      "PackagePath": "staticwebassets\\img\\logos\\pug.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\logos\\samsung.png",
+      "PackagePath": "staticwebassets\\img\\logos\\samsung.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\logos\\spectrum.jpg",
+      "PackagePath": "staticwebassets\\img\\logos\\spectrum.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\logos\\spotify.png",
+      "PackagePath": "staticwebassets\\img\\logos\\spotify.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\logos\\stanford.png",
+      "PackagePath": "staticwebassets\\img\\logos\\stanford.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\logos\\staten.png",
+      "PackagePath": "staticwebassets\\img\\logos\\staten.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\logos\\stripe.png",
+      "PackagePath": "staticwebassets\\img\\logos\\stripe.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\logos\\techcrunch.png",
+      "PackagePath": "staticwebassets\\img\\logos\\techcrunch.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\logos\\technext.png",
+      "PackagePath": "staticwebassets\\img\\logos\\technext.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\logos\\themewagon-main.png",
+      "PackagePath": "staticwebassets\\img\\logos\\themewagon-main.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\logos\\themewagon.png",
+      "PackagePath": "staticwebassets\\img\\logos\\themewagon.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\logos\\tj-heigh-school.png",
+      "PackagePath": "staticwebassets\\img\\logos\\tj-heigh-school.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\logos\\twitter.png",
+      "PackagePath": "staticwebassets\\img\\logos\\twitter.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\logos\\unsplash.png",
+      "PackagePath": "staticwebassets\\img\\logos\\unsplash.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\logos\\youtube.png",
+      "PackagePath": "staticwebassets\\img\\logos\\youtube.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\management\\activity-1.png",
+      "PackagePath": "staticwebassets\\img\\management\\activity-1.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\management\\activity-2.png",
+      "PackagePath": "staticwebassets\\img\\management\\activity-2.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\management\\activity-3.png",
+      "PackagePath": "staticwebassets\\img\\management\\activity-3.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\management\\activity-4.png",
+      "PackagePath": "staticwebassets\\img\\management\\activity-4.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\management\\activity-5.png",
+      "PackagePath": "staticwebassets\\img\\management\\activity-5.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\management\\activity-6.png",
+      "PackagePath": "staticwebassets\\img\\management\\activity-6.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\management\\activity-7.png",
+      "PackagePath": "staticwebassets\\img\\management\\activity-7.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\management\\activity-8.png",
+      "PackagePath": "staticwebassets\\img\\management\\activity-8.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\management\\activity-9.png",
+      "PackagePath": "staticwebassets\\img\\management\\activity-9.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\nav-icons\\apple.png",
+      "PackagePath": "staticwebassets\\img\\nav-icons\\apple.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\nav-icons\\deviantart.png",
+      "PackagePath": "staticwebassets\\img\\nav-icons\\deviantart.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\nav-icons\\discord.png",
+      "PackagePath": "staticwebassets\\img\\nav-icons\\discord.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\nav-icons\\facebook.png",
+      "PackagePath": "staticwebassets\\img\\nav-icons\\facebook.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\nav-icons\\github-light.png",
+      "PackagePath": "staticwebassets\\img\\nav-icons\\github-light.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\nav-icons\\github.png",
+      "PackagePath": "staticwebassets\\img\\nav-icons\\github.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\nav-icons\\google.png",
+      "PackagePath": "staticwebassets\\img\\nav-icons\\google.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\nav-icons\\hp.png",
+      "PackagePath": "staticwebassets\\img\\nav-icons\\hp.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\nav-icons\\instagram.png",
+      "PackagePath": "staticwebassets\\img\\nav-icons\\instagram.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\nav-icons\\linkedin.png",
+      "PackagePath": "staticwebassets\\img\\nav-icons\\linkedin.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\nav-icons\\mailbluster.png",
+      "PackagePath": "staticwebassets\\img\\nav-icons\\mailbluster.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\nav-icons\\pinterest.png",
+      "PackagePath": "staticwebassets\\img\\nav-icons\\pinterest.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\nav-icons\\slack.png",
+      "PackagePath": "staticwebassets\\img\\nav-icons\\slack.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\nav-icons\\spotify.png",
+      "PackagePath": "staticwebassets\\img\\nav-icons\\spotify.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\nav-icons\\steam.png",
+      "PackagePath": "staticwebassets\\img\\nav-icons\\steam.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\nav-icons\\themewagon.png",
+      "PackagePath": "staticwebassets\\img\\nav-icons\\themewagon.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\nav-icons\\trello.png",
+      "PackagePath": "staticwebassets\\img\\nav-icons\\trello.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\nav-icons\\twitter.png",
+      "PackagePath": "staticwebassets\\img\\nav-icons\\twitter.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\nav-icons\\vimeo.png",
+      "PackagePath": "staticwebassets\\img\\nav-icons\\vimeo.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\nav-icons\\wwf.png",
+      "PackagePath": "staticwebassets\\img\\nav-icons\\wwf.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\nav-icons\\xbox.png",
+      "PackagePath": "staticwebassets\\img\\nav-icons\\xbox.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\products\\1-2.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\1-2.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\products\\1-3.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\1-3.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\products\\1-4.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\1-4.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\products\\1-5.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\1-5.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\products\\1-6.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\1-6.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\products\\1.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\1.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\products\\10.png",
+      "PackagePath": "staticwebassets\\img\\products\\10.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\products\\11.png",
+      "PackagePath": "staticwebassets\\img\\products\\11.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\products\\12.png",
+      "PackagePath": "staticwebassets\\img\\products\\12.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\products\\13.png",
+      "PackagePath": "staticwebassets\\img\\products\\13.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\products\\14.png",
+      "PackagePath": "staticwebassets\\img\\products\\14.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\products\\2-thumb.png",
+      "PackagePath": "staticwebassets\\img\\products\\2-thumb.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\products\\2.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\2.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\products\\3-thumb.png",
+      "PackagePath": "staticwebassets\\img\\products\\3-thumb.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\products\\3.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\3.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\products\\4.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\4.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\products\\5-thumb.png",
+      "PackagePath": "staticwebassets\\img\\products\\5-thumb.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\products\\5.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\5.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\products\\6.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\6.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\products\\7.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\7.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\products\\8.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\8.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\products\\9.jpg",
+      "PackagePath": "staticwebassets\\img\\products\\9.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\suts\\Suts icon.png",
+      "PackagePath": "staticwebassets\\img\\suts\\Suts icon.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\suts\\Suts-logo.svg",
+      "PackagePath": "staticwebassets\\img\\suts\\Suts-logo.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\suts\\background.png",
+      "PackagePath": "staticwebassets\\img\\suts\\background.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\suts\\deposit log.png",
+      "PackagePath": "staticwebassets\\img\\suts\\deposit log.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\suts\\financial log.png",
+      "PackagePath": "staticwebassets\\img\\suts\\financial log.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\suts\\login.png",
+      "PackagePath": "staticwebassets\\img\\suts\\login.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\suts\\suts.rar",
+      "PackagePath": "staticwebassets\\img\\suts\\suts.rar"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\suts\\sutslogo.png",
+      "PackagePath": "staticwebassets\\img\\suts\\sutslogo.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\suts\\sutslogo1.png",
+      "PackagePath": "staticwebassets\\img\\suts\\sutslogo1.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\suts\\sutslogo2.png",
+      "PackagePath": "staticwebassets\\img\\suts\\sutslogo2.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\suts\\withdraw log.png",
+      "PackagePath": "staticwebassets\\img\\suts\\withdraw log.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\team\\1-thumb.png",
+      "PackagePath": "staticwebassets\\img\\team\\1-thumb.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\team\\1.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\1.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\team\\10.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\10.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\team\\11.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\11.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\team\\12.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\12.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\team\\13.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\13.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\team\\14-thumb.png",
+      "PackagePath": "staticwebassets\\img\\team\\14-thumb.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\team\\14.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\14.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\team\\15.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\15.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\team\\16.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\16.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\team\\17.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\17.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\team\\18.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\18.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\team\\19.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\19.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\team\\2-thumb.png",
+      "PackagePath": "staticwebassets\\img\\team\\2-thumb.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\team\\2.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\2.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\team\\20.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\20.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\team\\21.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\21.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\team\\22.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\22.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\team\\23.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\23.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\team\\24.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\24.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\team\\25-thumb.png",
+      "PackagePath": "staticwebassets\\img\\team\\25-thumb.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\team\\25.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\25.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\team\\3-thumb.png",
+      "PackagePath": "staticwebassets\\img\\team\\3-thumb.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\team\\3.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\3.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\team\\4-thumb.png",
+      "PackagePath": "staticwebassets\\img\\team\\4-thumb.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\team\\4.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\4.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\team\\5-thumb.png",
+      "PackagePath": "staticwebassets\\img\\team\\5-thumb.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\team\\5.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\5.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\team\\6.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\6.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\team\\7.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\7.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\team\\8.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\8.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\team\\9.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\9.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\team\\avatar.png",
+      "PackagePath": "staticwebassets\\img\\team\\avatar.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\team\\empty-thumb.png",
+      "PackagePath": "staticwebassets\\img\\team\\empty-thumb.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\tickets\\due-tickets.png",
+      "PackagePath": "staticwebassets\\img\\tickets\\due-tickets.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\tickets\\hold-tickets.png",
+      "PackagePath": "staticwebassets\\img\\tickets\\hold-tickets.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\tickets\\open-tickets.png",
+      "PackagePath": "staticwebassets\\img\\tickets\\open-tickets.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\tickets\\reports\\1.png",
+      "PackagePath": "staticwebassets\\img\\tickets\\reports\\1.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\tickets\\reports\\2.png",
+      "PackagePath": "staticwebassets\\img\\tickets\\reports\\2.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\tickets\\reports\\3.png",
+      "PackagePath": "staticwebassets\\img\\tickets\\reports\\3.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\tickets\\reports\\4.png",
+      "PackagePath": "staticwebassets\\img\\tickets\\reports\\4.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\tickets\\reports\\5.png",
+      "PackagePath": "staticwebassets\\img\\tickets\\reports\\5.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\tickets\\reports\\6.png",
+      "PackagePath": "staticwebassets\\img\\tickets\\reports\\6.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\tickets\\reports\\7.png",
+      "PackagePath": "staticwebassets\\img\\tickets\\reports\\7.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\tickets\\unassigned.png",
+      "PackagePath": "staticwebassets\\img\\tickets\\unassigned.png"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\us\\survey\\20260701_pic7.jpeg",
+      "PackagePath": "staticwebassets\\img\\us\\survey\\20260701_pic7.jpeg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\us\\survey\\47513128_7792_8941527535817001128_n.jpg",
+      "PackagePath": "staticwebassets\\img\\us\\survey\\47513128_7792_8941527535817001128_n.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\img\\us\\survey\\48453270_pic1.jpeg",
+      "PackagePath": "staticwebassets\\img\\us\\survey\\48453270_pic1.jpeg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\js\\agent-chat.js",
+      "PackagePath": "staticwebassets\\js\\agent-chat.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\js\\config.js",
+      "PackagePath": "staticwebassets\\js\\config.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\js\\config.js.map",
+      "PackagePath": "staticwebassets\\js\\config.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\js\\echart-example.js",
+      "PackagePath": "staticwebassets\\js\\echart-example.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\js\\echart-example.js.map",
+      "PackagePath": "staticwebassets\\js\\echart-example.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\js\\echarts-example.js",
+      "PackagePath": "staticwebassets\\js\\echarts-example.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\js\\echarts-example.js.map",
+      "PackagePath": "staticwebassets\\js\\echarts-example.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\js\\flatpickr.js",
+      "PackagePath": "staticwebassets\\js\\flatpickr.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\js\\min\\unioinsurvey.datatables.min.js",
+      "PackagePath": "staticwebassets\\js\\min\\unioinsurvey.datatables.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\js\\min\\unioinsurvey.min.js",
+      "PackagePath": "staticwebassets\\js\\min\\unioinsurvey.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\js\\pages\\deposit.js",
+      "PackagePath": "staticwebassets\\js\\pages\\deposit.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\js\\pages\\survey-question.js",
+      "PackagePath": "staticwebassets\\js\\pages\\survey-question.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\js\\pages\\survey.js",
+      "PackagePath": "staticwebassets\\js\\pages\\survey.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\js\\pages\\user-admin.js",
+      "PackagePath": "staticwebassets\\js\\pages\\user-admin.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\js\\pages\\withdraw-request.js",
+      "PackagePath": "staticwebassets\\js\\pages\\withdraw-request.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\js\\pages\\withdraw.js",
+      "PackagePath": "staticwebassets\\js\\pages\\withdraw.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\js\\theme.js",
+      "PackagePath": "staticwebassets\\js\\theme.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\js\\theme.js.map",
+      "PackagePath": "staticwebassets\\js\\theme.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\js\\theme.min.js",
+      "PackagePath": "staticwebassets\\js\\theme.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\js\\theme.min.js.map",
+      "PackagePath": "staticwebassets\\js\\theme.min.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\js\\user-chat.js",
+      "PackagePath": "staticwebassets\\js\\user-chat.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\js\\utilities.js",
+      "PackagePath": "staticwebassets\\js\\utilities.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\anchorjs\\anchor.min.js",
+      "PackagePath": "staticwebassets\\lib\\anchorjs\\anchor.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\bootstrap\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\bootstrap\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\chart\\chart.umd.js",
+      "PackagePath": "staticwebassets\\lib\\chart\\chart.umd.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\choices\\base.min.css",
+      "PackagePath": "staticwebassets\\lib\\choices\\base.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\choices\\choices.min.css",
+      "PackagePath": "staticwebassets\\lib\\choices\\choices.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\choices\\choices.min.js",
+      "PackagePath": "staticwebassets\\lib\\choices\\choices.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\countup\\countUp.umd.js",
+      "PackagePath": "staticwebassets\\lib\\countup\\countUp.umd.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\d3\\d3.min.js",
+      "PackagePath": "staticwebassets\\lib\\d3\\d3.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\datatables.net-bs5\\dataTables.bootstrap5.min.css",
+      "PackagePath": "staticwebassets\\lib\\datatables.net-bs5\\dataTables.bootstrap5.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\datatables.net-bs5\\dataTables.bootstrap5.min.js",
+      "PackagePath": "staticwebassets\\lib\\datatables.net-bs5\\dataTables.bootstrap5.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\datatables.net-dt\\jquery.dataTables.min.css",
+      "PackagePath": "staticwebassets\\lib\\datatables.net-dt\\jquery.dataTables.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\datatables.net-fixedcolumns\\dataTables.fixedColumns.min.js",
+      "PackagePath": "staticwebassets\\lib\\datatables.net-fixedcolumns\\dataTables.fixedColumns.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\datatables.net\\jquery.dataTables.min.js",
+      "PackagePath": "staticwebassets\\lib\\datatables.net\\jquery.dataTables.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\dayjs\\dayjs.min.js",
+      "PackagePath": "staticwebassets\\lib\\dayjs\\dayjs.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\draggable\\draggable.bundle.legacy.js",
+      "PackagePath": "staticwebassets\\lib\\draggable\\draggable.bundle.legacy.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\dropzone\\dropzone-min.js",
+      "PackagePath": "staticwebassets\\lib\\dropzone\\dropzone-min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\dropzone\\dropzone.css",
+      "PackagePath": "staticwebassets\\lib\\dropzone\\dropzone.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\echarts-countries-js\\map\\USA.js",
+      "PackagePath": "staticwebassets\\lib\\echarts-countries-js\\map\\USA.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\echarts-countries-js\\map\\world.js",
+      "PackagePath": "staticwebassets\\lib\\echarts-countries-js\\map\\world.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\echarts-countries-js\\world\\world.js",
+      "PackagePath": "staticwebassets\\lib\\echarts-countries-js\\world\\world.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\echarts\\echarts.min.js",
+      "PackagePath": "staticwebassets\\lib\\echarts\\echarts.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\emoji-mart\\browser.js",
+      "PackagePath": "staticwebassets\\lib\\emoji-mart\\browser.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\flatpickr\\bn.js",
+      "PackagePath": "staticwebassets\\lib\\flatpickr\\bn.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\flatpickr\\flatpickr.min.css",
+      "PackagePath": "staticwebassets\\lib\\flatpickr\\flatpickr.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\flatpickr\\flatpickr.min.js",
+      "PackagePath": "staticwebassets\\lib\\flatpickr\\flatpickr.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\fontawesome\\all.min.js",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\all.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\fullcalendar\\index.global.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\index.global.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\glightbox\\glightbox.min.css",
+      "PackagePath": "staticwebassets\\lib\\glightbox\\glightbox.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\glightbox\\glightbox.min.js",
+      "PackagePath": "staticwebassets\\lib\\glightbox\\glightbox.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\imask\\imask.min.js",
+      "PackagePath": "staticwebassets\\lib\\imask\\imask.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\inputmask\\inputmask.min.js",
+      "PackagePath": "staticwebassets\\lib\\inputmask\\inputmask.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\ion-rangeslider\\ion.rangeSlider.min.css",
+      "PackagePath": "staticwebassets\\lib\\ion-rangeslider\\ion.rangeSlider.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\ion-rangeslider\\ion.rangeSlider.min.js",
+      "PackagePath": "staticwebassets\\lib\\ion-rangeslider\\ion.rangeSlider.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\is\\is.min.js",
+      "PackagePath": "staticwebassets\\lib\\is\\is.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\jquery\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\leaflet.markercluster\\MarkerCluster.Default.css",
+      "PackagePath": "staticwebassets\\lib\\leaflet.markercluster\\MarkerCluster.Default.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\leaflet.markercluster\\MarkerCluster.css",
+      "PackagePath": "staticwebassets\\lib\\leaflet.markercluster\\MarkerCluster.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\leaflet.markercluster\\leaflet.markercluster.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet.markercluster\\leaflet.markercluster.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\leaflet.markercluster\\leaflet.markercluster.js.map",
+      "PackagePath": "staticwebassets\\lib\\leaflet.markercluster\\leaflet.markercluster.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\leaflet.tilelayer.colorfilter\\leaflet-tilelayer-colorfilter.min.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet.tilelayer.colorfilter\\leaflet-tilelayer-colorfilter.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\leaflet\\leaflet.css",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\leaflet.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\leaflet\\leaflet.js",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\leaflet.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\leaflet\\leaflet.js.map",
+      "PackagePath": "staticwebassets\\lib\\leaflet\\leaflet.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\list.js\\list.min.js",
+      "PackagePath": "staticwebassets\\lib\\list.js\\list.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\list.js\\list.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\list.js\\list.min.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\lodash\\lodash.min.js",
+      "PackagePath": "staticwebassets\\lib\\lodash\\lodash.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\lottie\\lottie.min.js",
+      "PackagePath": "staticwebassets\\lib\\lottie\\lottie.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\nouislider\\nouislider.min.css",
+      "PackagePath": "staticwebassets\\lib\\nouislider\\nouislider.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\nouislider\\nouislider.min.js",
+      "PackagePath": "staticwebassets\\lib\\nouislider\\nouislider.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\overlayscrollbars\\OverlayScrollbars.min.css",
+      "PackagePath": "staticwebassets\\lib\\overlayscrollbars\\OverlayScrollbars.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\overlayscrollbars\\OverlayScrollbars.min.js",
+      "PackagePath": "staticwebassets\\lib\\overlayscrollbars\\OverlayScrollbars.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\picmo\\index.css",
+      "PackagePath": "staticwebassets\\lib\\picmo\\index.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\picmo\\index.js",
+      "PackagePath": "staticwebassets\\lib\\picmo\\index.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\plyr\\plyr.css",
+      "PackagePath": "staticwebassets\\lib\\plyr\\plyr.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\plyr\\plyr.polyfilled.min.js",
+      "PackagePath": "staticwebassets\\lib\\plyr\\plyr.polyfilled.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\plyr\\plyr.polyfilled.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\plyr\\plyr.polyfilled.min.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\popper\\popper.min.js",
+      "PackagePath": "staticwebassets\\lib\\popper\\popper.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\popper\\popper.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\popper\\popper.min.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\prism\\prism-okaidia.css",
+      "PackagePath": "staticwebassets\\lib\\prism\\prism-okaidia.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\prism\\prism.js",
+      "PackagePath": "staticwebassets\\lib\\prism\\prism.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\rater-js\\index.js",
+      "PackagePath": "staticwebassets\\lib\\rater-js\\index.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\rater-js\\rater-js.js",
+      "PackagePath": "staticwebassets\\lib\\rater-js\\rater-js.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\rater-js\\star_0.svg",
+      "PackagePath": "staticwebassets\\lib\\rater-js\\star_0.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\rater-js\\star_1.svg",
+      "PackagePath": "staticwebassets\\lib\\rater-js\\star_1.svg"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\rater-js\\style.css",
+      "PackagePath": "staticwebassets\\lib\\rater-js\\style.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\select2-bootstrap-5-theme\\select2-bootstrap-5-theme.min.css",
+      "PackagePath": "staticwebassets\\lib\\select2-bootstrap-5-theme\\select2-bootstrap-5-theme.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\select2\\select2.full.min.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\select2.full.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\select2\\select2.min.css",
+      "PackagePath": "staticwebassets\\lib\\select2\\select2.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\select2\\select2.min.js",
+      "PackagePath": "staticwebassets\\lib\\select2\\select2.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\simplebar\\simplebar.min.css",
+      "PackagePath": "staticwebassets\\lib\\simplebar\\simplebar.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\simplebar\\simplebar.min.js",
+      "PackagePath": "staticwebassets\\lib\\simplebar\\simplebar.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\sortablejs\\Sortable.min.js",
+      "PackagePath": "staticwebassets\\lib\\sortablejs\\Sortable.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\swiper\\swiper-bundle.min.css",
+      "PackagePath": "staticwebassets\\lib\\swiper\\swiper-bundle.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\swiper\\swiper-bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\swiper\\swiper-bundle.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tiny-slider\\tiny-slider.css",
+      "PackagePath": "staticwebassets\\lib\\tiny-slider\\tiny-slider.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tiny-slider\\tiny-slider.css.map",
+      "PackagePath": "staticwebassets\\lib\\tiny-slider\\tiny-slider.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tiny-slider\\tiny-slider.js",
+      "PackagePath": "staticwebassets\\lib\\tiny-slider\\tiny-slider.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tiny-slider\\tiny-slider.scss",
+      "PackagePath": "staticwebassets\\lib\\tiny-slider\\tiny-slider.scss"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\CHANGELOG.md",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\CHANGELOG.md"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\README.md",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\README.md"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\bower.json",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\bower.json"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\composer.json",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\composer.json"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\icons\\default\\icons.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\icons\\default\\icons.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\icons\\default\\icons.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\icons\\default\\icons.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\icons\\default\\index.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\icons\\default\\index.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\license.txt",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\license.txt"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\models\\dom\\index.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\models\\dom\\index.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\models\\dom\\model.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\models\\dom\\model.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\models\\dom\\model.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\models\\dom\\model.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\package.json",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\package.json"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\accordion\\index.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\accordion\\index.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\accordion\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\accordion\\plugin.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\accordion\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\accordion\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\advlist\\index.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\advlist\\index.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\advlist\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\advlist\\plugin.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\advlist\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\advlist\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\anchor\\index.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\anchor\\index.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\anchor\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\anchor\\plugin.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\anchor\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\anchor\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\autolink\\index.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\autolink\\index.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\autolink\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\autolink\\plugin.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\autolink\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\autolink\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\autoresize\\index.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\autoresize\\index.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\autoresize\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\autoresize\\plugin.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\autoresize\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\autoresize\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\autosave\\index.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\autosave\\index.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\autosave\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\autosave\\plugin.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\autosave\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\autosave\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\charmap\\index.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\charmap\\index.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\charmap\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\charmap\\plugin.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\charmap\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\charmap\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\code\\index.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\code\\index.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\code\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\code\\plugin.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\code\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\code\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\codesample\\index.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\codesample\\index.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\codesample\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\codesample\\plugin.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\codesample\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\codesample\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\directionality\\index.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\directionality\\index.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\directionality\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\directionality\\plugin.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\directionality\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\directionality\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\emoticons\\index.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\emoticons\\index.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\emoticons\\js\\emojiimages.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\emoticons\\js\\emojiimages.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\emoticons\\js\\emojiimages.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\emoticons\\js\\emojiimages.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\emoticons\\js\\emojis.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\emoticons\\js\\emojis.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\emoticons\\js\\emojis.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\emoticons\\js\\emojis.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\emoticons\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\emoticons\\plugin.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\emoticons\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\emoticons\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\fullscreen\\index.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\fullscreen\\index.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\fullscreen\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\fullscreen\\plugin.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\fullscreen\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\fullscreen\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\help\\index.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\help\\index.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\ar.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\ar.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\bg_BG.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\bg_BG.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\ca.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\ca.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\cs.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\cs.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\da.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\da.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\de.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\de.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\el.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\el.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\en.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\en.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\es.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\es.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\eu.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\eu.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\fa.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\fa.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\fi.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\fi.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\fr_FR.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\fr_FR.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\he_IL.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\he_IL.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\hi.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\hi.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\hr.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\hr.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\hu_HU.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\hu_HU.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\id.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\id.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\it.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\it.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\ja.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\ja.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\kk.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\kk.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\ko_KR.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\ko_KR.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\ms.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\ms.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\nb_NO.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\nb_NO.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\nl.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\nl.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\pl.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\pl.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\pt_BR.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\pt_BR.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\pt_PT.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\pt_PT.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\ro.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\ro.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\ru.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\ru.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\sk.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\sk.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\sl_SI.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\sl_SI.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\sv_SE.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\sv_SE.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\th_TH.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\th_TH.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\tr.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\tr.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\uk.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\uk.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\vi.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\vi.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\zh_CN.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\zh_CN.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\zh_TW.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\help\\js\\i18n\\keynav\\zh_TW.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\help\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\help\\plugin.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\help\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\help\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\image\\index.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\image\\index.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\image\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\image\\plugin.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\image\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\image\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\importcss\\index.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\importcss\\index.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\importcss\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\importcss\\plugin.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\importcss\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\importcss\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\insertdatetime\\index.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\insertdatetime\\index.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\insertdatetime\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\insertdatetime\\plugin.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\insertdatetime\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\insertdatetime\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\link\\index.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\link\\index.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\link\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\link\\plugin.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\link\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\link\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\lists\\index.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\lists\\index.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\lists\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\lists\\plugin.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\lists\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\lists\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\media\\index.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\media\\index.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\media\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\media\\plugin.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\media\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\media\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\nonbreaking\\index.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\nonbreaking\\index.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\nonbreaking\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\nonbreaking\\plugin.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\nonbreaking\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\nonbreaking\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\pagebreak\\index.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\pagebreak\\index.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\pagebreak\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\pagebreak\\plugin.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\pagebreak\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\pagebreak\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\preview\\index.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\preview\\index.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\preview\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\preview\\plugin.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\preview\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\preview\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\quickbars\\index.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\quickbars\\index.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\quickbars\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\quickbars\\plugin.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\quickbars\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\quickbars\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\save\\index.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\save\\index.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\save\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\save\\plugin.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\save\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\save\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\searchreplace\\index.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\searchreplace\\index.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\searchreplace\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\searchreplace\\plugin.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\searchreplace\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\searchreplace\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\table\\index.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\table\\index.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\table\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\table\\plugin.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\table\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\table\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\template\\index.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\template\\index.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\template\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\template\\plugin.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\template\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\template\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\visualblocks\\index.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\visualblocks\\index.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\visualblocks\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\visualblocks\\plugin.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\visualblocks\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\visualblocks\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\visualchars\\index.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\visualchars\\index.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\visualchars\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\visualchars\\plugin.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\visualchars\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\visualchars\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\wordcount\\index.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\wordcount\\index.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\wordcount\\plugin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\wordcount\\plugin.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\plugins\\wordcount\\plugin.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\plugins\\wordcount\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\skins\\content\\dark\\content.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\content\\dark\\content.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\skins\\content\\dark\\content.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\content\\dark\\content.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\skins\\content\\dark\\content.min.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\content\\dark\\content.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\skins\\content\\default\\content.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\content\\default\\content.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\skins\\content\\default\\content.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\content\\default\\content.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\skins\\content\\default\\content.min.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\content\\default\\content.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\skins\\content\\document\\content.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\content\\document\\content.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\skins\\content\\document\\content.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\content\\document\\content.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\skins\\content\\document\\content.min.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\content\\document\\content.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\skins\\content\\tinymce-5-dark\\content.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\content\\tinymce-5-dark\\content.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\skins\\content\\tinymce-5-dark\\content.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\content\\tinymce-5-dark\\content.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\skins\\content\\tinymce-5-dark\\content.min.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\content\\tinymce-5-dark\\content.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\skins\\content\\tinymce-5\\content.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\content\\tinymce-5\\content.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\skins\\content\\tinymce-5\\content.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\content\\tinymce-5\\content.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\skins\\content\\tinymce-5\\content.min.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\content\\tinymce-5\\content.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\skins\\content\\writer\\content.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\content\\writer\\content.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\skins\\content\\writer\\content.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\content\\writer\\content.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\skins\\content\\writer\\content.min.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\content\\writer\\content.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\skins\\ui\\oxide-dark\\content.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\oxide-dark\\content.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\skins\\ui\\oxide-dark\\content.inline.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\oxide-dark\\content.inline.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\skins\\ui\\oxide-dark\\content.inline.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\oxide-dark\\content.inline.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\skins\\ui\\oxide-dark\\content.inline.min.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\oxide-dark\\content.inline.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\skins\\ui\\oxide-dark\\content.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\oxide-dark\\content.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\skins\\ui\\oxide-dark\\content.min.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\oxide-dark\\content.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\skins\\ui\\oxide-dark\\skin.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\oxide-dark\\skin.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\skins\\ui\\oxide-dark\\skin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\oxide-dark\\skin.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\skins\\ui\\oxide-dark\\skin.min.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\oxide-dark\\skin.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\skins\\ui\\oxide-dark\\skin.shadowdom.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\oxide-dark\\skin.shadowdom.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\skins\\ui\\oxide-dark\\skin.shadowdom.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\oxide-dark\\skin.shadowdom.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\skins\\ui\\oxide-dark\\skin.shadowdom.min.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\oxide-dark\\skin.shadowdom.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\skins\\ui\\oxide\\content.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\oxide\\content.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\skins\\ui\\oxide\\content.inline.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\oxide\\content.inline.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\skins\\ui\\oxide\\content.inline.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\oxide\\content.inline.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\skins\\ui\\oxide\\content.inline.min.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\oxide\\content.inline.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\skins\\ui\\oxide\\content.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\oxide\\content.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\skins\\ui\\oxide\\content.min.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\oxide\\content.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\skins\\ui\\oxide\\skin.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\oxide\\skin.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\skins\\ui\\oxide\\skin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\oxide\\skin.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\skins\\ui\\oxide\\skin.min.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\oxide\\skin.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\skins\\ui\\oxide\\skin.shadowdom.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\oxide\\skin.shadowdom.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\skins\\ui\\oxide\\skin.shadowdom.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\oxide\\skin.shadowdom.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\skins\\ui\\oxide\\skin.shadowdom.min.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\oxide\\skin.shadowdom.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\content.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\content.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\content.inline.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\content.inline.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\content.inline.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\content.inline.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\content.inline.min.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\content.inline.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\content.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\content.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\content.min.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\content.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.min.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.shadowdom.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.shadowdom.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.shadowdom.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.shadowdom.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.shadowdom.min.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.shadowdom.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\skins\\ui\\tinymce-5\\content.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\tinymce-5\\content.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\skins\\ui\\tinymce-5\\content.inline.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\tinymce-5\\content.inline.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\skins\\ui\\tinymce-5\\content.inline.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\tinymce-5\\content.inline.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\skins\\ui\\tinymce-5\\content.inline.min.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\tinymce-5\\content.inline.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\skins\\ui\\tinymce-5\\content.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\tinymce-5\\content.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\skins\\ui\\tinymce-5\\content.min.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\tinymce-5\\content.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\skins\\ui\\tinymce-5\\skin.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\tinymce-5\\skin.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\skins\\ui\\tinymce-5\\skin.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\tinymce-5\\skin.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\skins\\ui\\tinymce-5\\skin.min.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\tinymce-5\\skin.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\skins\\ui\\tinymce-5\\skin.shadowdom.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\tinymce-5\\skin.shadowdom.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\skins\\ui\\tinymce-5\\skin.shadowdom.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\tinymce-5\\skin.shadowdom.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\skins\\ui\\tinymce-5\\skin.shadowdom.min.css",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\skins\\ui\\tinymce-5\\skin.shadowdom.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\themes\\silver\\index.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\themes\\silver\\index.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\themes\\silver\\theme.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\themes\\silver\\theme.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\themes\\silver\\theme.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\themes\\silver\\theme.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\tinymce.d.ts",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\tinymce.d.ts"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\tinymce.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\tinymce.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\tinymce\\tinymce.min.js",
+      "PackagePath": "staticwebassets\\lib\\tinymce\\tinymce.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\toastify-js\\toastify.css",
+      "PackagePath": "staticwebassets\\lib\\toastify-js\\toastify.css"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\toastify-js\\toastify.js",
+      "PackagePath": "staticwebassets\\lib\\toastify-js\\toastify.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\typed.js\\typed.umd.js",
+      "PackagePath": "staticwebassets\\lib\\typed.js\\typed.umd.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\lib\\validator\\validator.min.js",
+      "PackagePath": "staticwebassets\\lib\\validator\\validator.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\Deploy360\\UnionSurveyNew\\UnionSurvey\\wwwroot\\logos\\themewagon (1).png",
+      "PackagePath": "staticwebassets\\logos\\themewagon (1).png"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.UnionSurvey.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.build.UnionSurvey.props",
+      "PackagePath": "build\\UnionSurvey.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.UnionSurvey.props",
+      "PackagePath": "buildMultiTargeting\\UnionSurvey.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildTransitive.UnionSurvey.props",
+      "PackagePath": "buildTransitive\\UnionSurvey.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

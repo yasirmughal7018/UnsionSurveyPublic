@@ -1,0 +1,86 @@
+﻿@using YM.Common
+@model UnionSurvey.Model.SurveyHomeModel
+
+@{
+    ViewData["Title"] = "Survey";
+}
+
+@section Styles {
+}
+
+
+
+<div class="card mb-3">
+    <div class="card-body px-xxl-0 p-3">
+        <div class="row g-0">
+            <div class="col-sm-4 px-3 text-center border-end-sm border-bottom border-bottom-sm-0 py-2 p-xxl-0">
+                <div class="icon-circle icon-circle-warning"><span class="fs-7 fas fa-dollar-sign text-warning"></span></div>
+                <h4 class="mb-1 font-sans-serif"><span class="text-700 mx-1">$</span><span class="fw-normal text-600">@Model.AvailableBalance</span></h4>
+                <p class="fs-10 fw-semi-bold mb-0">Available balance</p>
+            </div>
+            <div class="col-sm-4 px-3 text-center border-end-sm border-bottom border-bottom-sm-0 p-xxl-0 py-2">
+                <div class="icon-circle icon-circle-primary"><span class="fs-7 fas fa-user-graduate text-primary"></span></div>
+                <h4 class="mb-1 font-sans-serif"><span class="text-700 mx-1">$</span><span class="fw-normal text-600">@Model.TodayIncome</span></h4>
+                <p class="fs-10 fw-semi-bold mb-0">Today's income</p>
+            </div>
+            <div class="col-sm-4 px-3 text-center p-xxl-0 py-2">
+                <div class="icon-circle icon-circle-info"><span class="fs-7 fas fa-chalkboard-teacher text-info"></span></div>
+                <h4 class="mb-1 font-sans-serif"><span class="text-700 mx-1">$</span><span class="fw-normal text-600">@Model.TeamComission</span></h4>
+                <p class="fs-10 fw-semi-bold mb-0">Team's commission</p>
+            </div>
+        </div>
+    </div>
+</div>
+@if (Model.SurveyHowLongAgo.ToHasValue())
+{
+    <div class="list-group-item mb-0 rounded-0 py-3 px-x1 list-group-item-warning border-x-0 border-top-0">
+        <div class="row flex-between-center">
+            <div class="col">
+                <div class="d-flex">
+                    <div class="fas fa-circle mt-1 fs-11"></div>
+                    <p class="fs-10 ps-2 mb-0"><strong>@Model.SurveyHowLongAgo</strong></p>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+<div class="card">
+    <div class="card-body">
+        <div class="row">
+
+            @foreach (var survey in Model.Surveys)
+            {
+                string url = "#!";
+
+                if (survey.IsActive)
+                {
+                    url = Url.Action("Survey", "Home", new { surveyid = survey.SurveyId })!;
+                }
+
+                <div class="mb-4 col-md-4" id="@survey.SurveyDivId">
+                    <div class="border rounded-1 h-100 d-flex flex-column justify-content-between pb-3">
+                        <div class="overflow-hidden">
+                            <div class="position-relative rounded-top overflow-hidden">
+                                <a class="d-block" href="@url">
+                                    <img class="img-fluid rounded-top" src="@survey.LogoFullPath" alt="" />
+                                </a>
+                                <span class="badge rounded-pill @survey.SurveyStatusBadge position-absolute mt-2 me-2 z-2 top-0 end-0">@survey.SurveyStatus</span>
+                            </div>
+                            <div class="p-3">
+                                <h5 class="fs-9"><a class="text-1100" href="@url" data-surveyid="@survey.SurveyId">@survey.Title</a></h5>
+                                <p class="fs-10 mb-3 text-500">@survey.Description</p>
+                                <p class="fs-10 mb-3 text-500">you need @survey.UsersForSurveyActive grade one users.</p>
+                                <h5 class="fs-md-7 text-warning mb-0 d-flex align-items-center mb-3">
+                                    $ @survey.SurveyAmount
+                                </h5>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            }
+
+        </div>
+    </div>
+</div>

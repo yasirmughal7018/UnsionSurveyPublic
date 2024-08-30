@@ -1,0 +1,379 @@
+﻿<!DOCTYPE html>
+<html data-bs-theme="light" lang="en-US">
+@{
+    var userId = Convert.ToString(ViewData["UserId"] ?? "");
+    var userName = ViewData["UserName"] ?? "User";
+}
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>@ViewData["Title"] | Unions Survey</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="~/img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="~/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="~/img/favicons/favicon-16x16.png">
+    <link rel="shortcut icon" type="image/x-icon" href="~/img/favicons/favicon.ico">
+    <link rel="manifest" href="~/img/favicons/manifest.json">
+    <meta name="msapplication-TileImage" content="~/img/favicons/mstile-150x150.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <script src="~/js/min/config.min.js" asp-append-version="true"></script>
+
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700%7cPoppins:300,400,500,600,700,800,900&amp;display=swap" rel="stylesheet">
+
+    <link href="~/css/min/unioinsurvey.min.css rel="stylesheet" asp-append-version="true" />
+    <link href="~/css/theme.min.css" rel="stylesheet" />
+
+    <style>
+        .chatbox {
+            position: absolute;
+            bottom: 20px;
+            right: 46px;
+            background-color: #fff;
+            border-radius: 0px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            display: none;
+            flex-direction: column;
+            overflow: hidden;
+            width: 100%;
+            max-width: 23rem;
+            border-radius: 12px 12px 0px 0px;
+            z-index: 999;
+        }
+
+        .chatbox-header {
+            background-color: #4695ff;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            border-bottom: 1px solid #ccc;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 12px 12px 0px 0px;
+        }
+
+            .chatbox-header h4 {
+                margin: 0;
+                font-size: 16px;
+                color: #fff !important;
+            }
+
+        .chatbox-close {
+            background: none;
+            border: none;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .chatbox-body {
+            padding: 10px 10px 10px 18px;
+            flex-grow: 1;
+            max-height: 350px;
+            overflow-y: auto;
+            min-height: 350px;
+            height: 100%;
+        }
+
+        .chatbox-messages {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .chatbox-message {
+            padding: 8px;
+            margin-bottom: 10px;
+            border-radius: 2px;
+            max-width: 84%;
+            word-wrap: break-word;
+        }
+
+        .chatbox-body .from-user {
+            align-self: flex-end;
+            background-color: #2c7be5;
+            text-align: right;
+            color: #fff !important
+        }
+
+        .from-agent {
+            align-self: flex-start;
+            background-color: #edf2f9;
+            text-align: left;
+        }
+
+        .chatbox-footer {
+            display: flex;
+            border-top: 1px solid #ccc;
+        }
+
+            .chatbox-footer input {
+                flex-grow: 1;
+                padding: 10px;
+                border: none;
+                border-radius: 0;
+                outline: none;
+            }
+
+            .chatbox-footer button {
+                padding: 10px;
+                background-color: #fff;
+                color: #9da9bb;
+                border: none;
+                cursor: pointer;
+                font-weight: 500;
+            }
+
+                .chatbox-footer button:hover {
+                    font-weight: 600;
+                }
+
+        .chatbox-toggle {
+            position: fixed;
+            bottom: 10px;
+            right: 20px;
+            z-index: 9;
+        }
+
+            .chatbox-toggle button {
+                background-color: #4CAF50;
+                color: white;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 50px;
+                cursor: pointer;
+            }
+
+        .buttonItems {
+            display: flex;
+            align-items: center;
+        }
+        /* Style for messages sent by the agent */
+        .agent-message1 {
+            text-align: left;
+            background-color: #e0f7fa;
+            padding: 8px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            max-width: 60%;
+            align-self: flex-start;
+        }
+
+        /* Style for messages sent by the user */
+        .user-message1 {
+            text-align: right;
+            background-color: #c8e6c9;
+            padding: 8px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            max-width: 60%;
+            align-self: flex-end;
+        }
+
+        .bg-holder.bg-auth-card-shape {
+            background-color: #fff;
+            background-size: 80% !important;
+            padding: 96px;
+            background-position: center;
+        }
+
+        .card.overflow-hidden.z-1 .bg-holder {
+            position: relative;
+        }
+
+        .col-md-5.text-center.bg-card-gradient .position-relative.p-4.pt-md-5.pb-md-7 {
+            padding: 0px !important;
+        }
+      
+    </style>
+
+    @*     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/GoldPOS.styles.css" asp-append-version="true" /> *@
+</head>
+<body>
+    <main class="main" id="top">
+        <div class="container-fluid">
+            <script>
+                var isFluid = JSON.parse(localStorage.getItem('isFluid'));
+                if (isFluid) {
+                    var container = document.querySelector('[data-layout]');
+                    container.classList.remove('container');
+                    container.classList.add('container-fluid');
+                }
+            </script>
+            <div class="row min-vh-100 flex-center g-0">
+                <div class="col-lg-8 col-xxl-5 py-3 position-relative">
+                    <img class="bg-auth-circle-shape" src="/img/icons/spot-illustrations/bg-shape.png" alt="" width="250">
+                    <img class="bg-auth-circle-shape-2" src="/img/icons/spot-illustrations/shape-1.png" alt="" width="150">
+                    <div class="card overflow-hidden z-1">
+                        <div class="card-body p-0">
+                            <div class="row g-0 h-100">
+                                @RenderBody()
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chatGroup">
+            <div class="chatbox" style="display: none;">
+                <div class="chatbox-header">
+                    <h4>Chat with Us</h4>
+                    <button class="chatbox-close">×</button>
+                </div>
+                <div class="chatbox-body">
+                    <div id="chat-board" class="chatbox-messages">
+                        <!-- Messages will be displayed here -->
+                    </div>
+                </div>
+                <form id="message-form">
+                    <div class="chatbox-footer">
+                        <input type="text" id="message-input" placeholder="Type a message..." class="form-control" />
+                        <div class="buttonItems">
+                            <input class="d-none" type="file" id="chat-file-upload" />
+                            <label class="chat-file-upload cursor-pointer" for="chat-file-upload"><span class="fas fa-paperclip"></span></label>
+                            <button class="btn btn-primary" style="margin-top: 10px;" type="submit">Send</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="chatbox-toggle">
+                <button>Chat to Agent</button>
+            </div>
+
+            <input type="hidden" id="user-id" value="@userId" />
+            <input type="hidden" id="user-name" value="@userName" />
+        </div>
+    </main>
+    <div class="modal fade" id="termsandcondition" data-keyboard="false" tabindex="-1" aria-labelledby="termsandconditionLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="termsandconditionLabel">Terms and Conditions for Using Our Crypto-Based System</h5>
+                </div>
+                <div class="modal-body mt-0">
+                    <h6>1. Introduction</h6>
+                    <p class="fs-10">Welcome to SUTS (Survey Union Take Back System). By accessing or using our crypto-based system SUTS, you agree to be bound by these Terms and Conditions.</p>
+                    <p class="fs-10"><strong>Note:</strong> Please read them carefully before proceeding with the signup and login process.</p>
+
+                    <h6>2. Acceptance of Terms</h6>
+                    <p class="fs-10">By registering for an account or logging into the System, you acknowledge that you have read, understood, and agree to these Terms. If you do not agree to these Terms, you may not use the System.</p>
+
+                    <h6>3. Use of the System</h6>
+                    <p class="fs-10">The System operates based on cryptocurrency and blockchain technology. It is designed to facilitate transactions and interactions using digital assets. Your use of the System is at your own risk, and it is essential to understand the nature of cryptocurrencies and blockchain technology before participating.</p>
+
+                    <h6>4. Risks of Cryptocurrency</h6>
+                    <p class="fs-10"> Cryptocurrencies are subject to high volatility and can fluctuate significantly in value. Additionally, transactions made with cryptocurrencies are irreversible. You should be aware of the risks associated with the use of cryptocurrencies, including but not limited to the risk of loss of funds due to hacking, software bugs, or network failures.</p>
+
+                    <h6>5. No Liability for Loss of Funds</h6>
+                    <p class="fs-10">SUTS has no liability for the loss of funds in any case and you agree not to take any kind of legal action against SUTS or any working member of the company.</p>
+                    <p class="fs-10"> By using the System, you acknowledge and agree that: </p>
+                    <ul>
+                        <li><p class="fs-10"><strong>Loss of Funds:</strong> We are not liable for any loss of funds or assets resulting from your use of the System. This includes, but is not limited to, losses due to unauthorized access, technical failures, or errors in transactions.</p></li>
+                        <li><p class="fs-10"><strong>No Refunds:</strong> We do not offer refunds or compensation for lost or stolen funds. It is your responsibility to ensure the security of your account and to take necessary precautions to protect your digital assets.</p></li>
+                    </ul>
+
+                    <h6>6. Account Security</h6>
+                    <p class="fs-10">You are responsible for maintaining the confidentiality of your account credentials and for all activities that occur under your account. You agree to notify us immediately of any unauthorized use of your account or any other breach of security.</p>
+
+
+                    <h6>7. Modifications to Terms</h6>
+                    <p class="fs-10">We reserve the right to modify these Terms at any time. Any changes will be effective when posted on our website or communicated to you through other means. Your continued use of the System after such modifications constitutes your acceptance of the revised Terms.</p>
+
+
+                    <h6>8. Termination</h6>
+                    <p class="fs-10">We may terminate or suspend your access to the System at our sole discretion, with or without cause or notice, if we believe you have violated these Terms or for any other reason.</p>
+
+
+                    <h6>9. Contact Information</h6>
+                    <p class="fs-10">If you have any questions or concerns about these Terms or the System, please contact us at Live Chat Support.</p>
+
+
+                    <h6>10. Acknowledgment</h6>
+                    <p class="fs-10">By clicking "Agree" or by using the System, you confirm that you have read, understood, and accepted these Terms and Conditions.</p>
+
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary" type="button" data-bs-dismiss="modal">Agree</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="~/lib/bootstrap/bootstrap.min.js"></script>
+    <script src="~/js/min/unioinsurvey.min.js" asp-append-version="true"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=window.scroll"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/5.0.11/signalr.min.js"></script>
+    <script src="~/js/user-chat.js" asp-append-version="true"></script>
+
+
+@* 
+    <script>
+        document.querySelector('.chatbox-toggle button').addEventListener('click', function () {
+            document.querySelector('.chatbox').style.display = 'flex';
+            document.querySelector('.chatbox-toggle').style.display = 'none';
+
+            // Display default messages from the agent
+            displayInitialMessage('agent', 'Hello! How can I assist you today?');
+            displayInitialMessage('agent', 'Here are some common questions:');
+            displayInitialMessage('agent', '1. What are your working hours?');
+            displayInitialMessage('agent', '2. How can I track my order?');
+        });
+
+        document.querySelector('.chatbox-close').addEventListener('click', function () {
+            document.querySelector('.chatbox').style.display = 'none';
+            document.querySelector('.chatbox-toggle').style.display = 'block';
+        });
+
+        function displayInitialMessage(sender, message) {
+            const messageElement = document.createElement('div');
+            messageElement.textContent = message;
+            messageElement.className = `chatbox-message from-${sender}`;
+            if (sender === 'agent' && !message.startsWith('Hello')) {
+                messageElement.classList.add('clickable-message');
+            }
+            document.querySelector('.chatbox-messages').appendChild(messageElement);
+            document.querySelector('.chatbox-body').scrollTop = document.querySelector('.chatbox-body').scrollHeight;
+        }
+
+        document.addEventListener('click', function (event) {
+            if (event.target.classList.contains('clickable-message')) {
+                sendMessage('user', event.target.textContent);
+                respondToUserMessage(event.target.textContent);
+            }
+        });
+
+        function sendMessage(sender, message = null) {
+            const inputField = document.getElementById('');
+            const text = message || inputField.value.trim();
+            if (text !== '') {
+                const messageElement = document.createElement('div');
+                messageElement.textContent = text;
+                messageElement.className = `chatbox-message from-${sender}`;
+                document.querySelector('.chatbox-messages').appendChild(messageElement);
+                inputField.value = '';
+                document.querySelector('.chatbox-body').scrollTop = document.querySelector('.chatbox-body').scrollHeight;
+            }
+        }
+
+        function respondToUserMessage(userMessage = '') {
+            let response = '';
+            if (userMessage.includes('working hours')) {
+                response = 'Our working hours are 9 AM to 5 PM from Monday to Friday.';
+            } else if (userMessage.includes('track my order')) {
+                response = 'You can track your order by visiting our Order Tracking page and entering your order ID.';
+            } else {
+                response = 'Sure, let me check that for you.';
+            }
+            setTimeout(function () {
+                sendMessage('agent', response);
+            }, 1000);
+        }
+    </script> *@
+</body>
+</html>

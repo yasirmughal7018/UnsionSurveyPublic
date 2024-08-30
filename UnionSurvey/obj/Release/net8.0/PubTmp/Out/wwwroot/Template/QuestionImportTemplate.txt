@@ -1,0 +1,6 @@
+<Question>|<Option1>|<Option2>|<Option3>|<Option4>
+
+What is the capital of France?|Paris|London|Berlin
+Which planet is known as the Red Planet?|Earth
+Who wrote 'To Kill a Mockingbird'?|Harper Lee|Mark Twain
+What is the largest mammal in the world?|Blue Whale|Elephant|Giraffe|Hippopotamus

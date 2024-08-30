@@ -1,0 +1,147 @@
+/* _content/UnionSurvey/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-jv6llqpck0] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-jv6llqpck0] {
+  color: #0077cc;
+}
+
+.btn-primary[b-jv6llqpck0] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-jv6llqpck0], .nav-pills .show > .nav-link[b-jv6llqpck0] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-jv6llqpck0] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-jv6llqpck0] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-jv6llqpck0] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-jv6llqpck0] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-jv6llqpck0] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
+/* _content/UnionSurvey/Views/Shared/_LayoutAccount.cshtml.rz.scp.css */
+/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-0s5xclipeb] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-0s5xclipeb] {
+  color: #0077cc;
+}
+
+.btn-primary[b-0s5xclipeb] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-0s5xclipeb], .nav-pills .show > .nav-link[b-0s5xclipeb] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-0s5xclipeb] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-0s5xclipeb] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-0s5xclipeb] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-0s5xclipeb] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-0s5xclipeb] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
+/* _content/UnionSurvey/Views/Shared/_LayoutAdmin.cshtml.rz.scp.css */
+/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-g1n86aqa4u] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-g1n86aqa4u] {
+  color: #0077cc;
+}
+
+.btn-primary[b-g1n86aqa4u] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-g1n86aqa4u], .nav-pills .show > .nav-link[b-g1n86aqa4u] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-g1n86aqa4u] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-g1n86aqa4u] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-g1n86aqa4u] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-g1n86aqa4u] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-g1n86aqa4u] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}

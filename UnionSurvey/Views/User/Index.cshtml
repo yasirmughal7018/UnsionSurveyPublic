@@ -1,0 +1,158 @@
+﻿@using YM.Common
+@using UnionSurvey.Model
+
+@model IList<SP_UserFinancialStatus>
+
+@{
+    Layout = "_LayoutAdmin";
+    ViewData["Title"] = "User List";
+}
+
+@section Styles {
+}
+
+<div class="row gx-3">
+    <div class="col-12">
+        <div class="card" id="userTable" data-list='{"valueNames":["UserName", "Name", "UserCode"],"page":7,"pagination":true,"fallback":"users-card-fallback"}'>
+            <div class="card-header border-bottom border-200 px-0">
+                <div class="d-lg-flex justify-content-between">
+                    <div class="row flex-between-center gy-2 px-x1">
+                        <div class="col-auto pe-0">
+                            <h6 class="mb-0">All Users</h6>
+                        </div>
+                        <div class="col-auto">
+                            <form>
+                                <div class="input-group input-search-width">
+                                    <input class="form-control form-control-sm shadow-none search" type="search" placeholder="Search  by name" aria-label="search" />
+                                    <button class="btn btn-sm btn-outline-secondary border-300 hover-border-secondary"><span class="fa fa-search fs-10"></span></button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-body p-0">
+                <div class="list bg-body-tertiary p-x1 d-flex flex-column gap-3" id="card-user-body">
+                    @foreach (var s in Model)
+                    {
+                        var divId = s.UserName;
+                        var divBalance = $"balance_{s.UserName}";
+                        var spanActive = $"spanactive_{s.UserName}";
+                        var btn = $"btn_{s.UserName}";
+                        <div id="@s.UserName" class="bg-white dark__bg-1100 d-sm-flex align-items-center p-x1 rounded-3 shadow-sm card-view-height">
+                            <div class="d-flex align-items-start align-items-sm-center">
+                                <div class="avatar avatar-xl avatar-3xl">
+                                    <div class="avatar-name rounded-circle"><span>@s.UserName.ToSafeInitial()</span></div>
+                                </div>
+                                <div class="ms-1 ms-sm-3">
+                                    <h5 class="fw-semi-bold mb-3 mb-sm-2 UserName">
+                                        <a href='@Url.Action("Details", "User" , new { userName= s.UserName })'> @s.UserName</a>
+                                    </h5>
+                                    <div class="row align-items-center gx-0 gy-2">
+                                        <h6 class="client mb-0 Name">
+                                            @s.Name
+                                        </h6>
+                                        <p class="my-2 UserCode">
+                                            <button id="@btn" type="button" class="text-warning fs-10 border-0"
+                                                    data-bs-usercode="@s.UserCode"
+                                                    data-bs-whatever="@s.UserName"
+                                                    data-bs-status="@s.TransactionStatus"
+                                                    data-bs-tid="@s.TransactionId"
+                                                    data-bs-toggle="modal" data-bs-target="#adjustmentModalBackdrop">
+                                                @s.UserCode
+                                            </button>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="border-bottom mt-4 mb-x1"></div>
+                            <div class="d-flex justify-content-between ms-auto">
+                                <div class="ms-md-4 ms-xl-0" style="width:8rem;">
+                                    @if (s.TransactionStatus == "INPROGRESS")
+                                    {
+                                        <span class="badge badge-subtle-danger" id="@spanActive">@s.TransactionStatus</span>
+                                    }
+                                    else
+                                    {
+                                        <span class="badge badge-subtle-success">@s.TransactionStatus</span>
+                                    }
+                                    <span class="d-block">@s.TransactionDate</span>
+                                </div>
+                                <div class="d-sm-flex">
+                                    <h4 class="text-warning my-2">$ <span id="@divBalance">@s.AvailableBlance.ToSafeDecimalFloor2()</span></h4>
+                                </div>
+                            </div>
+                        </div>
+                    }
+
+
+                </div>
+                <div class="text-center d-none" id="users-card-fallback">
+                    <p class="fw-bold fs-8 mt-3">No user found</p>
+                </div>
+            </div>
+            <div class="card-footer">
+                <div class="d-flex justify-content-center">
+                    <button class="btn btn-sm btn-falcon-default me-1" type="button" title="Previous" data-list-pagination="prev"><span class="fas fa-chevron-left"></span></button>
+                    <ul class="pagination mb-0"></ul>
+                    <button class="btn btn-sm btn-falcon-default ms-1" type="button" title="Next" data-list-pagination="next"><span class="fas fa-chevron-right"></span></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="adjustmentModalBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="adjustmentModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-8" id="adjustmentModalLabel"></h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form class="input-light" asp-action="Index" method="post">
+                    @Html.AntiForgeryToken()
+                    <input type="hidden" id="username" name="username" value="" />
+                    <input type="hidden" id="usercode" name="usercode" value="" />
+
+                    <div class="form-group mb-2 pl-2">
+                        <label for="adjustmentamount">Amount</label>
+                        <div class="input-group input-group-lg mb-3">
+                            <input class="form-control" name="adjustmentamount" id="adjustmentamount" type="text"
+                                   data-input-mask='{"alias":"integer","rightAlign":false,"min":0,"max":10000, "allowMinus":false,"jitMasking":false}' />
+                            <span class="input-group-text"><i class="fas fa-dollar-sign"></i></span>
+                        </div>
+
+                    </div>
+                    <div class="alert alert-no-bg alert-danger py-2" role="alert" id="error" style="display:none;">
+                        <span>Enter valid amount to adjustment</span>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline-danger" id="activateUser" style="display:none;">Active</button>
+
+                <div class="ms-auto">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" id="saveAdjustment">Save</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts {
+    <script src="~/lib/inputmask/inputmask.min.js"></script>
+    <script src="~/js/pages/user-admin.js" asp-append-version="true"></script>
+
+    <script>
+
+        $(document).ready(function () {
+            UnionSurvey.Utilities.Init();
+            UnionSurvey.UserAdmin.Init();
+        })
+
+    </script>
+}

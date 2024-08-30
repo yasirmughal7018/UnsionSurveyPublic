@@ -1,0 +1,72 @@
+﻿@using YM.Common
+@using UnionSurvey.Model
+@model TransactionModel
+
+@{
+    ViewData["Title"] = "Deposit Amount";
+}
+
+@section Styles {
+    <link href="~/assets/index-eufbia5k.css" rel="stylesheet" />
+}
+
+
+<div class="col-12">
+    <div id="depositDiv" class="card bg-transparent-50 overflow-hidden">
+        <div class="card-header position-relative">
+            <div>
+                <h3 class="text-primary mb-1">Deposit Fund</h3>
+                <p>Deposit amount to your wallet. </p>
+            </div>
+        </div>
+        <div class="card-body px-6">
+            <div class="position-relative z-2">
+
+                <div class="d-md-flex py-3">
+                    <button class="btn btn-outline-primary my-2 me-3 yam" style="width:80px;" type="button"> 10 </button>
+                    <button class="btn btn-outline-primary my-2 me-3 yam" style="width:80px;" type="button"> 50</button>
+                    <button class="btn btn-outline-primary my-2 me-3 yam" style="width:80px;" type="button"> 100 </button>
+                    <button class="btn btn-outline-primary my-2 me-3 yam" style="width:80px;" type="button"> 500 </button>
+                    <button class="btn btn-outline-primary my-2 yam"      style="width:80px;" type="button"> 1000 </button>
+                </div>
+            </div>
+            <form class="input-light" asp-action="Index" method="post">
+                @Html.AntiForgeryToken()
+
+                <div class="">
+
+                    <div class="form-group mb-2 pl-2">
+                        <label asp-for="Amount">Amount</label>
+                        <div class="input-group input-group-lg mb-3">
+                            <input class="form-control" asp-for="Amount" type="text"
+                                   data-input-mask='{"alias":"integer","rightAlign":false,"min":0,"max":10000, "allowMinus":false,"jitMasking":false}' />
+                            <span class="input-group-text"><i class="fas fa-dollar-sign"></i></span>
+                        </div>
+
+                    </div>
+                    <div class="alert alert-no-bg alert-danger py-2" role="alert" id="error" style="display:none;">
+                        <span>Enter valid amount to deposit</span>
+                    </div>
+                    <div class="d-flex">
+                        <div class="ms-auto">
+                            <button id="deposit" class="btn btn-outline-success" type="button">Proceed to Connect Wallet</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div id="root" style="display:none;"></div>
+</div>
+
+@section Scripts {
+    <script src="~/lib/inputmask/inputmask.min.js"></script>
+    <script src="~/js/pages/deposit.js" asp-append-version="true"></script>
+    <script>
+        let depositAmount = 0;
+        let tnxId = 0;
+        UnionSurvey.Deposit.Init();
+    </script>
+    <script type="module" src="/assets/index-CMs9eEiW.js"></script>
+}

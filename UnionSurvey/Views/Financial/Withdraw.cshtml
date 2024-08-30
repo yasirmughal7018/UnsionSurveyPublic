@@ -1,0 +1,214 @@
+﻿@using YM.Common
+@using UnionSurvey.Model
+@model TransactionModel
+
+@{
+    ViewData["Title"] = "Withdraw Request";
+}
+<style>
+    .counter {
+        font-size: 3rem;
+    }
+
+    .swiper {
+        width: 100%;
+        height: 100%;
+        /* background: #05103A; */
+    }
+
+    .swiper-slide {
+        font-size: 18px;
+        padding-left: 12%;
+        padding-right: 12%;
+        padding-top: 10px;
+    }
+
+    /* The navigation links inside the overlay */
+    .overlay {
+        top: 0px !important;
+        height: 100% !important;
+        background: rgb(102 206 235 / 20%) !important;
+        position: absolute;
+        top: -5px;
+        left: 0;
+        width: 100%;
+        height: 82%;
+        background: rgba(16, 16, 16, 0);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 2;
+    }
+
+    .progress-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .progress-circle {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background: conic-gradient( #4caf50 var(--progress, 0%), #ddd var(--progress, 0%) );
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+        .progress-circle::before {
+            content: '';
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            background: #fff;
+            position: absolute;
+        }
+
+    .progress-text {
+        font-size: 24px;
+        color: #4caf50;
+        position: relative;
+    }
+
+</style>
+
+
+<div class="card mb-3">
+    <div class="card-body px-xxl-0 p-3">
+        <div class="d-block">
+            <div class="px-3 text-center py-2 p-xxl-0">
+                <div class="icon-circle icon-circle-warning"><span class="fs-7 fas fa-dollar-sign text-warning"></span></div>
+                <h4 class="mb-1 font-sans-serif"><span class="text-700 mx-1">$</span><span class="fw-normal text-600">@Model.AvailableBalance</span></h4>
+                <p class="fs-10 fw-semi-bold mb-0">Available balance</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@if (Model.WithdrawStatus == "SHOWMESSAGE")
+{
+    <div class="col-sm-12">
+        <div class="card">
+            <div class="bg-holder bg-card" style="background-image:url(/img/icons/spot-illustrations/corner-1.png);">
+            </div>
+            <!--/.bg-holder-->
+            <div class="card-body position-relative">
+                <div class="row g-2 align-items-sm-center">
+                    <div class="col-auto"><img src="/img/icons/connect-circle.png" alt="" height="55"></div>
+                    <div class="col">
+                        <div class="row align-items-center">
+                            <div class="col col-lg-8">
+                                <h5 class="fs-9 mb-3 mb-sm-0 text-primary">@Model.SuveyMessage</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+}
+else if (Model.WithdrawStatus == "READYFORREQUEST")
+{
+    @section Styles {
+    <link rel="stylesheet" href="/assets/index-eUFBIA5K.css">
+    }
+
+    <div class="col-12">
+        <div class="card bg-transparent-50">
+            <div class="card-header position-relative">
+                <div class="bg-holder d-sm-block bg-card z-1" style="background-image:url(/img/illustrations/ecommerce-bg.png);background-size:230px;background-position:right bottom;z-index:-1;">
+                </div>
+                <!--/.bg-holder-->
+
+                <div class="position-relative z-2">
+                    <div id="withdrawdiv">
+                        <form class="input-light" asp-action="Index" method="post">
+                            @Html.AntiForgeryToken()
+                            <div class="row col-8 p-2">
+                                <div>
+                                    <p class="text-success-emphasis">Your withdrawal request "@Model.Amount" has been approved. Please connect wallet to receive your funds. </p>
+                                </div>
+                                <div class="center-block py-3" style="text-align:center;">
+                                    <button id="withdraw" class="btn btn-outline-success" type="button">Ready to withdraw</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div id="withdrawroot" style="display:none;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @section Scripts {
+    <script src="~/js/pages/withdraw-request.js" asp-append-version="true"></script>
+    <script type="module" src="/assets/index-CTqmPklz.js"></script>
+    <script>
+        let WithdrawAmount = 0; ///**1e6*/ deposite Amount and change in two area.
+        let TransactionId = 0; //13455
+        let UserCode = "";
+        let UserName = "";
+        let Nonce = 0;
+        let ExpireTime = 0;
+        let Signature = "";
+
+        UnionSurvey.WithdrawRequest.Init(@Model.TransactionId);
+    </script>
+    }
+
+}
+else if (Model.WithdrawStatus == "NEWWITHDRAW")
+{
+    <div class="col-12">
+        <div id="depositDiv" class="card bg-transparent-50 overflow-hidden">
+            <div class="card-header position-relative">
+                <div>
+                    <h3 class="text-primary mb-1">Withdraw your amount</h3>
+                    <p>Withdraw amount from your wallet.</p>
+                </div>
+            </div>
+            <div class="card-body px-6">
+                <form class="input-light" asp-action="Index" method="post">
+                    @Html.AntiForgeryToken()
+
+                    <div class="">
+
+                        <div class="form-group mb-2 pl-2">
+                            <input type="hidden" asp-for="AvailableBalance" />
+                            <label asp-for="Amount">Amount</label>
+                            <div class="input-group input-group-lg mb-3">
+                                <input class="form-control" asp-for="Amount" type="text" style="min-width:250px;"
+                                       data-input-mask='{"alias":"integer","rightAlign":false,"min":0,"max":10000, "allowMinus":false,"jitMasking":false}' />
+                                <span class="input-group-text"><i class="fas fa-dollar-sign"></i></span>
+                                <button class="input-group-text btn btn-secondary yam ms-auto" type="button">ALL AMOUNT</button>
+                            </div>
+
+                        </div>
+                        <div class="alert alert-no-bg alert-danger py-2" role="alert" id="error" style="display:none;">
+                            <span>Enter valid amount for withdraw</span>
+                        </div>
+                        <div class="d-flex">
+                            <div class="ms-auto">
+                                <button id="withdraw" class="btn btn-outline-success" type="button">Withdraw requst from wallet</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    @section Scripts {
+    <script src="~/lib/inputmask/inputmask.min.js"></script>
+    <script src="~/js/pages/withdraw.js" asp-append-version="true"></script>
+    <script>
+        UnionSurvey.Withdraw.Init();
+    </script>
+    }
+}
+

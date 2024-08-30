@@ -1,0 +1,138 @@
+﻿@using YM.Common
+@model UnionSurvey.Model.SurveyModel
+
+@{
+    Layout = "_LayoutAdmin";
+    ViewData["Title"] = "Survey Question";
+    int questionNumber = 1;
+}
+
+@section Styles {
+}
+
+
+<div class="row g-3 mb-3">
+    <div class="col-sm-12">
+        <div class="card h-100">
+            <input type="hidden" id="surveyId" value="@Model.SurveyId" />
+            <div class="bg-holder bg-card" style="background-image:url(/img/icons/spot-illustrations/corner-3.png);">
+            </div>
+            <!--/.bg-holder-->
+
+            <div class="card-header z-1 d-sm-flex align-items-center">
+                <div class="d-flex align-items-start align-items-sm-center">
+                    <div class="avatar avatar-xl avatar-3xl">
+                        @if (Model.LogoName.ToHasValue())
+                        {
+                            <img class="rounded-circle" src="@Model.LogoFullPath" alt="@Model.Title" />
+                        }
+                        else
+                        {
+                            <div class="avatar-name rounded-circle"><span>@Model.Title.ToSafeInitial()</span></div>
+                        }
+                    </div>
+                    <div class="ms-1 ms-sm-3">
+                        <h5 class="text-primary">
+                            @Model.Title
+                        </h5>
+                        <h6 class="text-600">@Model.Description</h6>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-between ms-auto">
+                    <div>
+                        <h4 class="fs-8 fs-md-7 text-warning mb-0">$ @Model.SurveyAmount</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-12">
+        <div class="card h-100">
+            <div class="card" id="questionTable" data-list='{"valueNames":["number","question"],"fallback":"question-table-fallback"}'>
+                <div class="card-header border-bottom border-200 px-0">
+                    <div class="d-lg-flex justify-content-between">
+                        <div class="row flex-between-center gy-2 px-x1">
+                            <div class="col-auto pe-0">
+                                <h6 class="mb-0">All Questions</h6>
+                            </div>
+                            <div class="col-auto">
+                                <form>
+                                    <div class="input-group input-search-width">
+                                        <input class="form-control form-control-sm shadow-none search" type="search" placeholder="Search  by name" aria-label="search" />
+                                        <button class="btn btn-sm btn-outline-secondary border-300 hover-border-secondary"><span class="fa fa-search fs-10"></span></button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="border-bottom border-200">
+                            <span class="text-danger-emphasis" style="display:none;" id="saveMessage">Record saved successfully.</span>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-between justify-content-lg-end px-x1">
+                            <div class="bg-300 mx-3 d-none d-lg-block d-xl-none" style="width:1px; height:29px"></div>
+                            <div class="d-flex align-items-center" id="table-ticket-replace-element">
+                                <button class="btn btn-falcon-default btn-sm mx-2" type="button" id="btnSaveSurveyQuestion">
+                                    Save
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body p-0">
+                    <div class="table-responsive scrollbar">
+                        <table class="table table-sm mb-0 fs-10 question-table">
+                            <thead class="bg-body-tertiary">
+                                <tr>
+                                    <th style="width:28px;"></th>
+                                    <th class="py-2 fs-9 pe-2 sort" data-sort="number" style="width: 35px;"> # </th>
+                                    <th class="text-800 sort align-middle ps-2" data-sort="question">Question</th>
+                                </tr>
+                            </thead>
+                            <tbody class="list">
+
+                                @foreach (var q in Model.QuestionList!)
+                                {
+                                    <tr id="@q.HtmlId">
+                                        <td class="align-middle fs-9 py-3">
+                                            <div class="form-check mb-0">
+                                                @if (q.SurveyId == 0)
+                                                {
+                                                    <input class="form-check-input sort-checkbox" type="checkbox" data-id="@q.QuestionId" id="chk_@q.HtmlId" />
+                                                }
+                                                else
+                                                {
+                                                    <input class="form-check-input sort-checkbox" type="checkbox" data-id="@q.QuestionId" id="chk_@q.HtmlId" checked />
+                                                }
+
+                                            </div>
+                                        </td>
+                                        <td class="align-middle number white-space-nowrap pe-3 pe-xxl-4 ps-2">@questionNumber  </td>
+                                        <td class="align-middle question py-2 pe-4">@q.Question</td>
+                                    </tr>
+
+                                    questionNumber += 1;
+                                }
+
+                            </tbody>
+                        </table>
+                        <div class="text-center d-none" id="question-table-fallback">
+                            <p class="fw-bold fs-8 mt-3">No question found</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/js/pages/survey-question.js" asp-append-version="true"></script>
+
+    <script>
+
+        $(document).ready(function () {
+            UnionSurvey.Utilities.Init();
+            UnionSurvey.SurveyQuestion.Init();
+        })
+
+    </script>
+}

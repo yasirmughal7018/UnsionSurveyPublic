@@ -1,0 +1,5 @@
+﻿ dotnet ef dbcontext scaffold "Server=.; Database=UnionSurveyProd;User Id=sa;Password=Numerical123;TrustServerCertificate=True;MultipleActiveResultSets=true;" Microsoft.EntityFrameworkCore.SqlServer -o Models --force
+
+
+ - add loader in each ajax calls
+ - datatable page switch there is no jquery binding event working

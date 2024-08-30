@@ -1,0 +1,141 @@
+﻿@using YM.Common
+@model UnionSurvey.Model.QuestionModel
+
+@{
+    Layout = "_LayoutAdmin";
+    ViewData["Title"] = "Question";
+    int questionNumber = 1;
+}
+
+@section Styles {
+}
+
+<div class="row gx-3">
+    <div class="col-xxl-9 col-xl-8">
+        <div class="card" id="questionTable" data-list='{"valueNames":["number","question"],"fallback":"question-table-fallback"}'>
+            <div class="card-header border-bottom border-200 px-0">
+                <div class="d-lg-flex justify-content-between">
+                    <div class="row flex-between-center gy-2 px-x1">
+                        <div class="col-auto pe-0">
+                            <h6 class="mb-0">All Questions</h6>
+                        </div>
+                        <div class="col-auto">
+                            <form>
+                                <div class="input-group input-search-width">
+                                    <input class="form-control form-control-sm shadow-none search" type="search" placeholder="Search  by name" aria-label="search" />
+                                    <button class="btn btn-sm btn-outline-secondary border-300 hover-border-secondary"><span class="fa fa-search fs-10"></span></button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-body p-0">
+                <div class="table-responsive scrollbar">
+                    <table class="table table-sm mb-0 fs-10" id="question-table">
+                        <thead class="bg-body-tertiary">
+                            <tr>
+                                <th scope="col" class="py-2 fs-9 pe-2 sort" data-sort="number" style="width: 35px;"> # </th>
+                                <th scope="col" class="text-800 sort align-middle ps-2" data-sort="question">Question</th>
+                                <th scope="col" class="text-end"></th>
+                            </tr>
+                        </thead>
+                        <tbody class="list">
+
+                            @foreach (var q in Model.QuestionList!)
+                            {
+                                <tr id="@q.QuestionId">
+                                    <td class="align-middle number white-space-nowrap pe-3 pe-xxl-4 ps-2">@questionNumber</td>
+                                    <td class="align-middle question py-2 pe-4">@q.Question</td>
+                                    <td class="text-end">
+                                        <div>
+                                            <button class="btn btn-link p-0" type="button" data>
+                                                <span class="text-500 fas fa-edit"></span>
+                                            </button> | 
+                                            <button class="btn btn-link p-0 ms-2 " type="button">
+                                                <span class="text-danger fas fa-trash-alt"></span>
+                                            </button>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                questionNumber += 1;
+                            }
+
+                        </tbody>
+                    </table>
+                    <div class="text-center d-none" id="question-table-fallback">
+                        <p class="fw-bold fs-8 mt-3">No question found</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xxl-3 col-xl-4">
+        <div class="offcanvas offcanvas-end offcanvas-filter-sidebar border-0 bg-body-quaternary h-auto rounded-xl-3" tabindex="-1" id="questionOffcanvas" aria-labelledby="QuestionOffcanvasLabelCard">
+            <div class="offcanvas-header align-items-center d-flex flex-between-center d-xl-none bg-body-tertiary">
+                <h6 class="flex-1 fs-9 mb-0 fw-semi-bold">Question</h6>
+                <div class="btn-reveal-trigger">
+                    <button class="btn btn-link btn-reveal btn-sm session-by-country-map-reset resetbtn" data-target-form="frmQuestion" type="reset"><span class="fas fa-sync-alt fs-10"></span></button>
+                </div>
+                <button class="btn-close text-reset d-xl-none shadow-none" id="questionOffcanvasLabelCard" type="button" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="card scrollbar shadow-none shadow-show-xl">
+                <form class="row g-3 needs-validation" id="frmQuestion" novalidate method="post">
+                    @Html.AntiForgeryToken()
+                    <input type="hidden" asp-for="QuestionId" />
+                    <div class="card-header align-items-center bg-body-tertiary d-none d-xl-flex py-2">
+                        <h6 class="mb-0 flex-1">Question</h6>
+                        <div class="btn-reveal-trigger">
+                            <button class="btn btn-link btn-reveal btn-sm session-by-country-map-reset resetbtn" data-target-form="frmQuestion" type="reset"><span class="fas fa-sync-alt fs-10"></span></button>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="mb-1">
+                            <label asp-for="Question" class="mb-1 form-label"></label>
+                            <input asp-for="Question" class="form-control" required />
+                        </div>
+                        <div class="mb-1">
+                            <label asp-for="Option1" class="mb-1 form-label"></label>
+                            <input asp-for="Option1" class="form-control" />
+                        </div>
+                        <div class="mb-1">
+                            <label asp-for="Option2" class="mb-1 form-label"></label>
+                            <input asp-for="Option2" class="form-control" />
+                        </div>
+                        <div class="mb-1">
+                            <label asp-for="Option3" class="mb-1 form-label"></label>
+                            <input asp-for="Option3" class="form-control" />
+                        </div>
+                        <div class="mb-1">
+                            <label asp-for="Option4" class="mb-1 form-label"></label>
+                            <input asp-for="Option4" class="form-control" />
+                        </div>
+                    </div>
+                    <div class="card-footer border-top border-200 py-x1">
+                        <button type="submit" class="btn btn-primary w-100">
+                            Save
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+@section Scripts {
+    <script src="~/js/pages/Question.js" asp-append-version="true"></script>
+
+    <script>
+
+        $(document).ready(function () {
+            UnionSurvey.Utilities.Init();
+            UnionSurvey.Question.Init();
+        })
+
+    </script>
+}

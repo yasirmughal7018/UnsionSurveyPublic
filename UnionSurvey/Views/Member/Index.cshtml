@@ -1,0 +1,137 @@
+﻿@using YM.Common
+@model UnionSurvey.Model.UserHierarchyModel
+
+@{
+    ViewData["Title"] = "Member Referals";
+}
+
+@section Styles {
+}
+
+
+<div class="card mb-3">
+    <div class="card-body px-xxl-0 p-3">
+        <div class="row g-0">
+            <div class="col-6 col-sm-4 col-md-2 px-3 text-center border-end border-bottom border-bottom-md-0 py-2 p-xxl-0">
+                @* <div class="icon-circle icon-circle-warning"><span class="fs-7 fas fa-dollar-sign text-warning"></span></div> *@
+                <h4 class="mb-1 font-sans-serif"><span class="text-700 mx-1">$</span><span class="fw-normal text-600">@Model.TeamBalance</span></h4>
+                <p class="fs-10 fw-semi-bold mb-0">Team balance</p>
+            </div>
+            <div class="col-6 col-sm-4 col-md-2 px-3 text-center border-end-0 border-end-sm border-bottom border-bottom-md-0 p-xxl-0 py-2">
+                @* <div class="icon-circle icon-circle-primary"><span class="fs-7 fas fa-user-graduate text-primary"></span></div> *@
+                <h4 class="mb-1 font-sans-serif"><span class="text-700 mx-1">$</span><span class="fw-normal text-600">@Model.DepositBalance</span></h4>
+                <p class="fs-10 fw-semi-bold mb-0">Total Team Recharge</p>
+            </div>
+            <div class="col-6 col-sm-4 col-md-2 px-3 text-center border-end border-end-sm-0 border-end-md border-bottom border-bottom-md-0 p-xxl-0 py-2">
+                @* <div class="icon-circle icon-circle-info"><span class="fs-7 fas fa-chalkboard-teacher text-info"></span></div> *@
+                <h4 class="mb-1 font-sans-serif"><span class="fw-normal text-600">@Model.DirectPromoters</span></h4>
+                <p class="fs-10 fw-semi-bold mb-0">Direct Promotors</p>
+            </div>
+            <div class="col-6 col-sm-4 col-md-2 px-3 text-center border-end-0 border-end-sm border-bottom border-bottom-sm-0 p-xxl-0 py-2">
+                @* <div class="icon-circle icon-circle-info"><span class="fs-7 fas fa-chalkboard-teacher text-info"></span></div> *@
+                <h4 class="mb-1 font-sans-serif"><span class="fw-normal text-600">@Model.NewlyIncreased</span></h4>
+                <p class="fs-10 fw-semi-bold mb-0">Newly Increase</p>
+            </div>
+            <div class="col-6 col-sm-4 col-md-2 px-3 text-center border-end border-end-sm p-xxl-0 py-2">
+                @* <div class="icon-circle icon-circle-info"><span class="fs-7 fas fa-chalkboard-teacher text-info"></span></div> *@
+                <h4 class="mb-1 font-sans-serif"><span class="fw-normal text-600">@Model.TotalSize</span></h4>
+                <p class="fs-10 fw-semi-bold mb-0">Total Size</p>
+            </div>
+            <div class="col-6 col-sm-4 col-md-2 px-3 text-center border-end-0 p-xxl-0 py-2">
+                @* <div class="icon-circle icon-circle-info"><span class="fs-7 fas fa-chalkboard-teacher text-info"></span></div> *@
+                <h4 class="mb-1 font-sans-serif"><span class="fw-normal text-600">@Model.TodaySurveyCompletedUsers</span></h4>
+                <p class="fs-10 fw-semi-bold mb-0">Active team members</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-12">
+        <div class="mt-4">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item"><a class="nav-link active ps-0" id="grade-one-tab" data-bs-toggle="tab" href="#tab-grade-one" role="tab" aria-controls="tab-grade-one" aria-selected="true">Grade One</a></li>
+                <li class="nav-item"><a class="nav-link px-2 px-md-3" id="grade-two-tab" data-bs-toggle="tab" href="#tab-grade-two" role="tab" aria-controls="tab-grade-two" aria-selected="false">Grade Two</a></li>
+                <li class="nav-item"><a class="nav-link px-2 px-md-3" id="grade-three-tab" data-bs-toggle="tab" href="#tab-grade-three" role="tab" aria-controls="tab-grade-three" aria-selected="false">Grade Three</a></li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="tab-grade-one" role="tabpanel" aria-labelledby="grade-one-tab">
+
+                    @foreach (var g1 in Model.Users.Where(i => i.Level == 2))
+                    {
+                        <div class="bg-white dark__bg-1100 p-2 m-2 rounded-3 shadow-sm card-view-height">
+                            <div class="d-flex align-items-start align-items-sm-center">
+                                <div class="ms-1">
+                                    <h5 class="fw-semi-bold mb-3 mb-sm-2">
+                                        @g1.UserName
+                                    </h5>
+                                    <div class="row align-items-center gx-0 gy-2">
+                                        <h6 class="client mb-0">
+                                            @g1.Name
+                                        </h6>
+                                        <div class="text-warning fs-10 my-2">
+                                            Last Survey <span class="badge rounded-pill fs-11 fw-medium badge-subtle-warning TotalSurveyQuestions">@g1.LastSurvey</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h6 class="text-warning my-2 ms-auto">
+                                    $ @g1.AvailableBalance.ToSafeDecimalFloor2()
+                                </h6>
+                            </div>
+                        </div>
+                    }
+                </div>
+                <div class="tab-pane fade" id="tab-grade-two" role="tabpanel" aria-labelledby="grade-two-tab">
+                    @foreach (var g1 in Model.Users.Where(i => i.Level == 3))
+                    {
+                        <div class="bg-white dark__bg-1100 p-2 m-2 rounded-3 shadow-sm card-view-height">
+                            <div class="d-flex align-items-start align-items-sm-center">
+                                <div class="ms-1">
+                                    <h5 class="fw-semi-bold mb-3 mb-sm-2">
+                                        @g1.UserName
+                                    </h5>
+                                    <div class="row align-items-center gx-0 gy-2">
+                                        <h6 class="client mb-0">
+                                            @g1.Name
+                                        </h6>
+                                        <div class="text-warning fs-10 my-2">
+                                            Last Survey <span class="badge rounded-pill fs-11 fw-medium badge-subtle-warning TotalSurveyQuestions">@g1.LastSurvey</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h6 class="text-warning my-2 ms-auto">
+                                    $ @g1.AvailableBalance.ToSafeDecimalFloor2()
+                                </h6>
+                            </div>
+                        </div>
+                    }
+                </div>
+                <div class="tab-pane fade" id="tab-grade-three" role="tabpanel" aria-labelledby="grade-three-tab">
+                    @foreach (var g1 in Model.Users.Where(i => i.Level == 4))
+                    {
+                        <div class="bg-white dark__bg-1100 p-2 m-2 rounded-3 shadow-sm card-view-height">
+                            <div class="d-flex align-items-start align-items-sm-center">
+                                <div class="ms-1">
+                                    <h5 class="fw-semi-bold mb-3 mb-sm-2">
+                                        @g1.UserName
+                                    </h5>
+                                    <div class="row align-items-center gx-0 gy-2">
+                                        <h6 class="client mb-0">
+                                            @g1.Name
+                                        </h6>
+                                        <div class="text-warning fs-10 my-2">
+                                            Last Survey <span class="badge rounded-pill fs-11 fw-medium badge-subtle-warning TotalSurveyQuestions">@g1.LastSurvey</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h6 class="text-warning my-2 ms-auto">
+                                    $ @g1.AvailableBalance.ToSafeDecimalFloor2()
+                                </h6>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

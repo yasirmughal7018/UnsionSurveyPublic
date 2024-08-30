@@ -1,0 +1,485 @@
+﻿<!DOCTYPE html>
+<html data-bs-theme="light" lang="en-US">
+@{
+    var userId = Convert.ToString(ViewData["UserId"] ?? "");
+    var userName = ViewData["UserName"] ?? "User";
+}
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>@ViewData["Title"] | Unions Survey</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="~/img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="~/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="~/img/favicons/favicon-16x16.png">
+    <link rel="shortcut icon" type="image/x-icon" href="~/img/favicons/favicon.ico">
+    <link rel="manifest" href="~/img/favicons/manifest.json">
+    <meta name="msapplication-TileImage" content="~/img/favicons/mstile-150x150.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <script src="~/js/min/config.min.js" asp-append-version="true"></script>
+
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700%7cPoppins:300,400,500,600,700,800,900&amp;display=swap" rel="stylesheet">
+
+    <link href="~/css/min/unioinsurvey.min.css" rel="stylesheet" asp-append-version="true" />
+    <link href="~/css/theme.min.css" rel="stylesheet" />
+    <style>
+        .chatbox {
+            position: fixed;
+            bottom: 20px;
+            right: 46px;
+            background-color: #fff;
+            border-radius: 0px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            display: none;
+            flex-direction: column;
+            overflow: hidden;
+            width: 100%;
+            max-width: 23rem;
+            border-radius: 12px 12px 0px 0px;
+            z-index: 999;
+        }
+
+        .chatbox-header {
+            background-color: #4695ff;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            border-bottom: 1px solid #ccc;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 12px 12px 0px 0px;
+        }
+
+            .chatbox-header h4 {
+                margin: 0;
+                font-size: 16px;
+                color: #fff !important;
+            }
+
+        .chatbox-close {
+            background: none;
+            border: none;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .chatbox-body {
+            padding: 10px 10px 10px 18px;
+            flex-grow: 1;
+            max-height: 350px;
+            overflow-y: auto;
+            min-height: 350px;
+            height: 100%;
+        }
+
+        .chatbox-messages {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .chatbox-message {
+            padding: 8px;
+            margin-bottom: 10px;
+            border-radius: 2px;
+            max-width: 84%;
+            word-wrap: break-word;
+        }
+
+        .chatbox-body .from-user {
+            align-self: flex-end;
+            background-color: #2c7be5;
+            text-align: right;
+            color: #fff !important
+        }
+
+        .from-agent {
+            align-self: flex-start;
+            background-color: #edf2f9;
+            text-align: left;
+        }
+
+        .chatbox-footer {
+            display: flex;
+            border-top: 1px solid #ccc;
+        }
+
+            .chatbox-footer input {
+                flex-grow: 1;
+                padding: 10px;
+                border: none;
+                border-radius: 0;
+                outline: none;
+            }
+
+            .chatbox-footer button {
+                padding: 10px;
+                background-color: #fff;
+                color: #9da9bb;
+                border: none;
+                cursor: pointer;
+                font-weight: 500;
+            }
+
+                .chatbox-footer button:hover {
+                    font-weight: 600;
+                }
+
+        .chatbox-toggle {
+            position: fixed;
+            bottom: 10px;
+            right: 20px;
+            z-index: 9;
+        }
+
+            .chatbox-toggle button {
+                background-color: #4CAF50;
+                color: white;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 50px;
+                cursor: pointer;
+            }
+
+        .buttonItems {
+            display: flex;
+            align-items: center;
+        }
+        /* Style for messages sent by the agent */
+        .agent-message1 {
+            text-align: left;
+            background-color: #e0f7fa;
+            padding: 8px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            max-width: 60%;
+            align-self: flex-start;
+        }
+
+        /* Style for messages sent by the user */
+        .user-message1 {
+            text-align: right;
+            background-color: #c8e6c9;
+            padding: 8px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            max-width: 60%;
+            align-self: flex-end;
+        }
+
+        
+
+    </style>
+    @await RenderSectionAsync("Styles", required: false)
+</head>
+<body>
+
+    <main class="main" id="top">
+        <div class="container-fluid" data-layout="container">
+            <script>
+                var isFluid = JSON.parse(localStorage.getItem('isFluid'));
+                if (isFluid) {
+                    var container = document.querySelector('[data-layout]');
+                    container.classList.remove('container');
+                    container.classList.add('container-fluid');
+                }
+            </script>
+            <nav class="navbar navbar-light navbar-vertical navbar-expand-xl">
+                <script>
+                    var navbarStyle = localStorage.getItem("navbarStyle");
+                    if (navbarStyle && navbarStyle !== 'transparent') {
+                        document.querySelector('.navbar-vertical').classList.add(`navbar-${navbarStyle}`);
+                    }
+                </script>
+                <div class="d-flex align-items-center">
+                    <div class="toggle-icon-wrapper">
+
+                        <button class="btn navbar-toggler-humburger-icon navbar-vertical-toggle" data-bs-toggle="tooltip" data-bs-placement="left" title="Toggle Navigation"><span class="navbar-toggle-icon"><span class="toggle-line"></span></span></button>
+
+                    </div>
+                    @*                     <a class="navbar-brand" href="../index.html">
+                    <div class="d-flex align-items-center py-3">
+                    <img class="me-2" src="/img/icons/spot-illustrations/falcon.png" alt="" width="40" /><span class="font-sans-serif text-primary">falcon</span>
+                    </div>
+                    </a> *@
+                    <div class="navbar-brand me-1 me-sm-3  py-2">
+                        <img class="me-2" src="/img/suts/Suts-logo.svg" style="width:100%;" alt="" />
+                    </div>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarVerticalCollapse">
+                    <div class="navbar-vertical-content scrollbar">
+                        <ul class="navbar-nav flex-column mb-3" id="navbarVerticalNav">
+                            @*                             <li class="nav-item">
+                            <a class="nav-link" asp-controller="Dashboard" asp-action="Index" role="button">
+                            <div class="d-flex align-items-center">
+                            <span class="nav-link-icon"><span class="fas fa-chart-pie"></span></span><span class="nav-link-text ps-1">Dashboard</span>
+                            </div>
+                            </a>
+                            </li> *@
+                            <li class="nav-item">
+                                <!-- label-->
+                                <div class="row navbar-vertical-label-wrapper mt-3 mb-2">
+                                    <div class="col-auto navbar-vertical-label">
+                                        Survey
+                                    </div>
+                                    <div class="col ps-0">
+                                        <hr class="mb-0 navbar-vertical-divider" />
+                                    </div>
+                                </div>
+                                <a class="nav-link" asp-controller="Home" asp-action="Index" role="button">
+                                    <div class="d-flex align-items-center">
+                                        <span class="nav-link-icon"><span class="far fa-user-circle"></span></span><span class="nav-link-text ps-1">Survey</span>
+                                    </div>
+                                </a>
+                                <a class="nav-link" asp-controller="Home" asp-action="SurveyLogs" role="button">
+                                    <div class="d-flex align-items-center">
+                                        <span class="nav-link-icon"><span class="fab fa-quinscape"></span></span><span class="nav-link-text ps-1">Survey Logs</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <!-- label-->
+                                <div class="row navbar-vertical-label-wrapper mt-3 mb-2">
+                                    <div class="col-auto navbar-vertical-label">
+                                        Financial
+                                    </div>
+                                    <div class="col ps-0">
+                                        <hr class="mb-0 navbar-vertical-divider" />
+                                    </div>
+                                </div>
+                                <a class="nav-link" asp-controller="Financial" asp-action="Deposit" role="button">
+                                    <div class="d-flex align-items-center">
+                                        <span class="nav-link-icon"><span class="fab fa-quinscape"></span></span><span class="nav-link-text ps-1">Deposit</span>
+                                    </div>
+                                </a>
+                                <a class="nav-link" asp-controller="Financial" asp-action="Withdraw" role="button">
+                                    <div class="d-flex align-items-center">
+                                        <span class="nav-link-icon"><span class="far fa-user-circle"></span></span><span class="nav-link-text ps-1">Withdrawal</span>
+                                    </div>
+                                </a>
+
+                                <a class="nav-link" asp-controller="Financial" asp-action="Logs" role="button">
+                                    <div class="d-flex align-items-center">
+                                        <span class="nav-link-icon"><span class="far fa-user-circle"></span></span><span class="nav-link-text ps-1">Financial Logs</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <!-- label-->
+                                <div class="row navbar-vertical-label-wrapper mt-3 mb-2">
+                                    <div class="col-auto navbar-vertical-label">
+                                        Users
+                                    </div>
+                                    <div class="col ps-0">
+                                        <hr class="mb-0 navbar-vertical-divider" />
+                                    </div>
+                                </div>
+                                <a class="nav-link" asp-controller="Member" asp-action="Index" role="button">
+                                    <div class="d-flex align-items-center">
+                                        <span class="nav-link-icon"><span class="far fa-user-circle"></span></span><span class="nav-link-text ps-1">Team Hierarchy</span>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="content">
+
+                <nav class="navbar navbar-light navbar-glass navbar-top navbar-expand">
+
+                    <button class="btn navbar-toggler-humburger-icon navbar-toggler me-1 me-sm-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarVerticalCollapse" aria-controls="navbarVerticalCollapse" aria-expanded="false" aria-label="Toggle Navigation"><span class="navbar-toggle-icon"><span class="toggle-line"></span></span></button>
+                    @*                     <a class="navbar-brand me-1 me-sm-3" href="../../index.html">
+                    <div class="d-flex align-items-center">
+                    <img class="me-2" src="/img/icons/spot-illustrations/falcon.png" alt="" width="40" /><span class="font-sans-serif text-primary">falcon</span>
+                    </div>
+                    </a> *@
+                    <div class="navbar-brand me-1 me-sm-3  py-2">
+                        <img class="me-2" src="/img/suts/sutslogo2.png" alt="" width="125" />
+                    </div>
+                    <ul class="navbar-nav navbar-nav-icons ms-auto flex-row align-items-center">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link pe-0 ps-2" id="navbarDropdownUser" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <div class="avatar avatar-xl">
+                                    <img class="rounded-circle" src="/img/team/3-thumb.png" alt="" />
+                                </div>
+                            </a>
+                            <div class="dropdown-menu dropdown-caret dropdown-caret dropdown-menu-end py-0" aria-labelledby="navbarDropdownUser">
+                                <div class="d-flex align-items-center position-relative p-1">
+                                    <div class="avatar avatar-2xl status-online">
+                                        <img class="rounded-circle" src="/img/team/3-thumb.png" alt="" />
+                                    </div>
+                                    <div class="flex-1 ms-3">
+                                        <h6 class="mb-0 fw-semi-bold">
+                                            @* <a class="stretched-link text-900" href="../pages/user/profile.html"> *@
+                                            @ViewData["USUSERNAME"]
+                                            @* </a> *@
+                                        </h6>
+                                        @* <p class="text-500 fs-11 mb-0">@ViewData["USNAME"]</p> *@
+                                    </div>
+                                </div>
+                                <div class="bg-white dark__bg-1000 rounded-2 py-2">
+                                    <a class="dropdown-item" asp-action="Profile" asp-controller="Member">Settings</a>
+                                    <a class="dropdown-item" asp-action="Logout" asp-controller="Account">Logout</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+
+
+                @RenderBody()
+
+            </div>
+            <div class="modal fade" id="authentication-modal" tabindex="-1" role="dialog" aria-labelledby="authentication-modal-label" aria-hidden="true">
+                <div class="modal-dialog mt-6" role="document">
+                    <div class="modal-content border-0">
+                        <div class="modal-header px-5 position-relative modal-shape-header bg-shape">
+                            <div class="position-relative z-1">
+                                <h4 class="mb-0 text-white" id="authentication-modal-label">Register</h4>
+                                <p class="fs-10 mb-0 text-white">Please create your free Falcon account</p>
+                            </div>
+                            <button class="btn-close position-absolute top-0 end-0 mt-2 me-2" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body py-4 px-5">
+                            <form>
+                                <div class="mb-3">
+                                    <label class="form-label" for="modal-auth-name">Name</label>
+                                    <input class="form-control" type="text" autocomplete="on" id="modal-auth-name" />
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label" for="modal-auth-email">Email address</label>
+                                    <input class="form-control" type="email" autocomplete="on" id="modal-auth-email" />
+                                </div>
+                                <div class="row gx-2">
+                                    <div class="mb-3 col-sm-6">
+                                        <label class="form-label" for="modal-auth-password">Password</label>
+                                        <input class="form-control" type="password" autocomplete="on" id="modal-auth-password" />
+                                    </div>
+                                    <div class="mb-3 col-sm-6">
+                                        <label class="form-label" for="modal-auth-confirm-password">Confirm Password</label>
+                                        <input class="form-control" type="password" autocomplete="on" id="modal-auth-confirm-password" />
+                                    </div>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="modal-auth-register-checkbox" />
+                                    <label class="form-label" for="modal-auth-register-checkbox">I accept the <a href="#!">terms </a>and <a class="white-space-nowrap" href="#!">privacy policy</a></label>
+                                </div>
+                                <div class="mb-3">
+                                    <button class="btn btn-primary d-block w-100 mt-3" type="submit" name="submit">Register</button>
+                                </div>
+                            </form>
+                            <div class="position-relative mt-5">
+                                <hr />
+                                <div class="divider-content-center">or register with</div>
+                            </div>
+                            <div class="row g-2 mt-2">
+                                <div class="col-sm-6"><a class="btn btn-outline-google-plus btn-sm d-block w-100" href="#"><span class="fab fa-google-plus-g me-2" data-fa-transform="grow-8"></span> google</a></div>
+                                <div class="col-sm-6"><a class="btn btn-outline-facebook btn-sm d-block w-100" href="#"><span class="fab fa-facebook-square me-2" data-fa-transform="grow-8"></span> facebook</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="delete-record" data-bs-keyboard="false" data-bs-backdrop="static" tabindex="-1" aria-labelledby="deleteRecordLabel" aria-hidden="true">
+            <div class="modal-dialog mt-6" role="document">
+                <div class="modal-content border-0">
+                    <div class="position-absolute top-0 end-0 mt-3 me-3 z-1">
+                        <button class="btn-close btn btn-sm btn-circle d-flex flex-center transition-base" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body p-0">
+                        <div class="rounded-top-3 bg-body-tertiary py-3 ps-4 pe-6">
+                            <h4 class="mb-1" id="deleteRecordLabel">Delete the Record <span id="deleteRecordNameHeader"></span></h4>
+                        </div>
+                        <div class="p-4">
+                            <div class="row">
+                                <p class="text-break fs-10">Are you sure! You want to delete <span id="deleteRecordNameBody"></span> it?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button id="modal-btn-descartar" type="button" class="btn btn-secondary">Cancel</button>
+                        <button id="modal-btn-aceptar" type="button" class="btn btn-primary">Accept</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="chatGroup">
+            <div class="chatbox" style="display: none;">
+                <div class="chatbox-header">
+                    <h4>Chat with Us</h4>
+                    <button class="chatbox-close">×</button>
+                </div>
+                <div class="chatbox-body">
+                    <div id="chat-board" class="chatbox-messages">
+                        <!-- Messages will be displayed here -->
+                    </div>
+                </div>
+                <form id="message-form">
+                    <div class="chatbox-footer">
+                        <input type="text" id="message-input" placeholder="Type a message..." class="form-control" />
+                        <div class="buttonItems">
+                            <input class="d-none" type="file" id="chat-file-upload" />
+                            <label class="chat-file-upload cursor-pointer" for="chat-file-upload"><span class="fas fa-paperclip"></span></label>
+                            <button class="btn btn-primary" style="margin-top: 10px;" type="submit">Send</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="chatbox-toggle">
+                <button>Chat to Agent</button>
+            </div>
+
+            <input type="hidden" id="user-id" value="@userId" />
+            <input type="hidden" id="user-name" value="@userName" />
+        </div>
+    </main>
+    <!-- ===============================================-->
+    <!--    End of Main Content-->
+    <!-- ===============================================-->
+
+    <script src="~/lib/jquery/jquery.min.js"></script>
+    <script src="~/js/min/unioinsurvey.min.js" asp-append-version="true"></script>
+    <script src="~/lib/bootstrap/bootstrap.min.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=window.scroll"></script>
+    <script>
+        var UnionSurvey = UnionSurvey || {};
+
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (() => {
+            'use strict'
+
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            const forms = document.querySelectorAll('.needs-validation')
+
+            // Loop over them and prevent submission
+            Array.from(forms).forEach(form => {
+                form.addEventListener('submit', event => {
+                    if (!form.checkValidity()) {
+                        event.preventDefault()
+                        event.stopPropagation()
+                    }
+
+                    form.classList.add('was-validated')
+                }, false)
+            })
+        })()
+    </script>
+    <script src="~/js/utilities.js" asp-append-version="true"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/5.0.11/signalr.min.js"></script>
+    <script src="~/js/user-chat.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

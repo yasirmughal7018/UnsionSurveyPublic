@@ -1,0 +1,52 @@
+[
+  {
+    "outputFileName": "wwwroot/css/min/unioinsurvey.min.css",
+    "inputFiles": [
+      "wwwroot/lib/simplebar/simplebar.min.css",
+      "wwwroot/css/user.css"
+    ],
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    }
+  },
+  {
+    "outputFileName": "wwwroot/js/min/config.min.js",
+    "inputFiles": [
+      "wwwroot/js/config.js",
+      "wwwroot/lib/simplebar/simplebar.min.js"
+    ],
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    }
+  },
+  {
+    "outputFileName": "wwwroot/js/min/unioinsurvey.min.js",
+    "inputFiles": [
+      "wwwroot/lib/popper/popper.min.js",
+      "wwwroot/lib/anchorjs/anchor.min.js",
+      "wwwroot/lib/is/is.min.js",
+      "wwwroot/lib/fontawesome/all.min.js",
+      "wwwroot/lib/lodash/lodash.min.js",
+      "wwwroot/lib/list.js/list.min.js",
+      "wwwroot/js/theme.js"
+    ],
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    }
+  },
+  {
+    "outputFileName": "wwwroot/js/min/unioinsurvey.datatables.min.js",
+    "inputFiles": [
+      "wwwroot/lib/datatables.net/jquery.dataTables.min.js",
+      "wwwroot/lib/datatables.net-bs5/dataTables.bootstrap5.min.js",
+      "wwwroot/lib/datatables.net-fixedcolumns/dataTables.fixedColumns.min.js"
+    ],
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    }
+  }
+]

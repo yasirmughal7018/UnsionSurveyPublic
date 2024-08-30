@@ -1,0 +1,85 @@
+﻿@using YM.Common
+@using UnionSurvey.Model
+@model IList<SurveyLogModel>
+
+@{
+    ViewData["Title"] = "Survey Logs";
+}
+
+@section Styles {
+}
+
+<div class="row gx-3">
+
+    <div class="card" id="surveyLogTable" data-list='{"valueNames":["Title","Description","SurveyAmount","TotalSurveyQuestions","CompletedDate"],"fallback":"surveys-card-fallback"}'>
+        <div class="card-header border-bottom border-200 px-0">
+            <div class="d-lg-flex justify-content-between">
+                <div class="row flex-between-center gy-2 px-x1">
+                    <div class="col-auto pe-0">
+                        <h6 class="mb-0">All Logs</h6>
+                    </div>
+                    <div class="col-auto">
+                        <form>
+                            <div class="input-group input-search-width">
+                                <input class="form-control form-control-sm shadow-none search" type="search" placeholder="Search  by name" aria-label="search" />
+                                <button class="btn btn-sm btn-outline-secondary border-300 hover-border-secondary"><span class="fa fa-search fs-10"></span></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card-body p-0">
+            <div class="list bg-body-tertiary p-x1 d-flex flex-column gap-3" id="card-ticket-body">
+
+                @foreach (var s in Model)
+                {
+                    <div class="bg-white dark__bg-1100 d-md-flex align-items-center p-x1 rounded-3 shadow-sm card-view-height">
+                        <div class="d-flex align-items-start align-items-sm-center">
+                            <div class="avatar avatar-xl avatar-3xl">
+                                @if (s.LogoName.ToHasValue())
+                                {
+                                    <img class="rounded-circle" src="@s.LogoFullPath" alt="@s.Title" />
+                                }
+                                else
+                                {
+                                    <div class="avatar-name rounded-circle"><span>@s.Title.ToSafeInitial()</span></div>
+                                }
+                            </div>
+                            <div class="ms-1 ms-sm-3">
+                                <h5 class="fw-semi-bold mb-3 mb-sm-2 Title">
+                                    @s.Title
+                                </h5>
+                                <div class="row align-items-center gx-0 gy-2">
+                                    <h6 class="client mb-0 Description">
+                                        @s.Description
+                                    </h6>
+                                    <div class="text-warning fs-10 my-2">
+                                        Total questions <span class="badge rounded-pill fs-11 fw-medium badge-subtle-warning TotalSurveyQuestions">@s.TotalSurveyQuestions</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="border-bottom mt-4 mb-x1"></div>
+                        <div class="d-flex justify-content-between ms-auto">
+                            <div class="d-flex align-items-center gap-2 ms-md-4 ms-xl-0" style="width:9.5rem;">
+                                <h6 class="mb-0 text-700 CompletedDate">Completed on <span class="d-block badge rounded-pill fs-11 fw-medium badge-subtle-success CompletedDate">@s.CompletedDate</span></h6>
+                            </div>
+                            <h4 class="text-warning my-2">
+                                $ @s.SurveyAmount
+                            </h4>
+                        </div>
+                    </div>
+
+
+                }
+
+
+            </div>
+            <div class="text-center d-none" id="surveys-card-fallback">
+                <p class="fw-bold fs-8 mt-3">No logs found</p>
+            </div>
+        </div>
+    </div>
+
+</div>

@@ -1,0 +1,13 @@
+D:\Projects\Deploy360\UnionSurveyNew\UnionSurvey.Model\bin\Release\net8.0\UnionSurvey.Model.deps.json
+D:\Projects\Deploy360\UnionSurveyNew\UnionSurvey.Model\bin\Release\net8.0\UnionSurvey.Model.dll
+D:\Projects\Deploy360\UnionSurveyNew\UnionSurvey.Model\bin\Release\net8.0\UnionSurvey.Model.pdb
+D:\Projects\Deploy360\UnionSurveyNew\UnionSurvey.Model\obj\Release\net8.0\UnionSurvey.Model.csproj.AssemblyReference.cache
+D:\Projects\Deploy360\UnionSurveyNew\UnionSurvey.Model\obj\Release\net8.0\UnionSurvey.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Deploy360\UnionSurveyNew\UnionSurvey.Model\obj\Release\net8.0\UnionSurvey.Model.AssemblyInfoInputs.cache
+D:\Projects\Deploy360\UnionSurveyNew\UnionSurvey.Model\obj\Release\net8.0\UnionSurvey.Model.AssemblyInfo.cs
+D:\Projects\Deploy360\UnionSurveyNew\UnionSurvey.Model\obj\Release\net8.0\UnionSurvey.Model.csproj.CoreCompileInputs.cache
+D:\Projects\Deploy360\UnionSurveyNew\UnionSurvey.Model\obj\Release\net8.0\UnionSurvey.Model.sourcelink.json
+D:\Projects\Deploy360\UnionSurveyNew\UnionSurvey.Model\obj\Release\net8.0\UnionSurvey.Model.dll
+D:\Projects\Deploy360\UnionSurveyNew\UnionSurvey.Model\obj\Release\net8.0\refint\UnionSurvey.Model.dll
+D:\Projects\Deploy360\UnionSurveyNew\UnionSurvey.Model\obj\Release\net8.0\UnionSurvey.Model.pdb
+D:\Projects\Deploy360\UnionSurveyNew\UnionSurvey.Model\obj\Release\net8.0\ref\UnionSurvey.Model.dll
